@@ -1,0 +1,20 @@
+:root {
+   --uint: 8px;
+
+    --fs: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: var(--fs);
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
