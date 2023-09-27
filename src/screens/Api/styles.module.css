@@ -1,7 +1,3 @@
-.root {
-    padding: calc(var(--uint) * 12) 0;
-}
-
 .wrap {
     border-radius: calc(var(--uint) * 5);
     color: var(--textSecondary);
@@ -23,10 +19,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .root {
-        padding: calc(var(--uint) * 8) 0;
-    }
-
     .wrap {
         border-radius: calc(var(--uint) * 3);
         min-height: 510px;

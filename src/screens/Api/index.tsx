@@ -5,10 +5,7 @@ import styles from './styles.module.css';
 
 function Api() {
   return (
-    <section
-      id="api"
-      className={styles.root}
-    >
+    <section id="api">
       <Container>
         <div className={styles.wrap}>
           <div>
@@ -17,7 +14,8 @@ function Api() {
             </h2>
 
             <p>
-              Explore available methods and types and integrate them in any programming language.
+              Explore available methods and types
+              and integrate them in any programming language.
             </p>
 
             <ButtonLink href="#" type="outlined">
