@@ -1,6 +1,6 @@
 import React from 'react';
 import { Footer, Header, Layout } from '@components/index';
-import { Offer } from 'screens';
+import { Offer, Community } from 'screens';
 
 function Page() {
   return (
@@ -11,6 +11,8 @@ function Page() {
       <Header />
 
       <Offer />
+
+      <Community />
 
       <Footer />
     </Layout>

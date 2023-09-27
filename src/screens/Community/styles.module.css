@@ -1,0 +1,38 @@
+.root {
+    background-color: var(--bgSecondary);
+}
+
+.wrap {
+    padding: calc(var(--uint) * 10) 0;
+    background-color: var(--bgPrimary);
+    border-radius: 0 0 calc(var(--uint) * 2) calc(var(--uint) * 2);
+    text-align: center;
+}
+
+.description {
+    max-width: 570px;
+    margin: 0 auto;
+    margin-top: calc(var(--uint) * 3);
+    margin-bottom: calc(var(--uint) * 5);
+}
+
+.stacks {
+    margin-bottom: calc(var(--uint) * 5);
+    display: flex;
+    justify-content: center;
+    gap: calc(var(--uint) * 6);
+}
+
+.stack {
+    max-width: 160px;
+    width: 100%;
+}
+
+.stack img {
+    width: 96px;
+    height: 96px;
+}
+
+.stack p {
+    margin-top: calc(var(--uint) * 0.5);
+}

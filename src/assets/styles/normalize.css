@@ -23,6 +23,7 @@ pre {
 }
 
 a {
+  display: inline-block;
   background-color: transparent;
   text-decoration: none;
   color: inherit;
@@ -128,4 +129,10 @@ fieldset {
 
 textarea {
   overflow: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
