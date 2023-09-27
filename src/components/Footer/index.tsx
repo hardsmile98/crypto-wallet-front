@@ -1,17 +1,17 @@
 import React from 'react';
+import { menuLiks } from 'contants';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from 'assets/images/logo.svg';
-import { menuLiks } from 'contants';
 import ButtonLink from '../ButtonLink';
 import Container from '../Container';
 import styles from './styles.module.css';
 
-function Header() {
+function Footer() {
   return (
-    <header
-      id="header"
-      className={styles.header}
+    <footer
+      id="footer"
+      className={styles.footer}
     >
       <Container>
         <div className={styles.wrap}>
@@ -37,14 +37,18 @@ function Header() {
 
           <ButtonLink
             href="#"
-            type="secondary"
+            type="outlined"
           >
             Get started
           </ButtonLink>
         </div>
+
+        <p className={styles.copy}>
+          {`©${new Date().getFullYear()} Crypto Bot`}
+        </p>
       </Container>
-    </header>
+    </footer>
   );
 }
 
-export default Header;
+export default Footer;

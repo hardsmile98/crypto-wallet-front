@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, Layout } from '@components/index';
+import { Footer, Header, Layout } from '@components/index';
+import { Offer } from 'screens';
 
 function Page() {
   return (
@@ -8,6 +9,10 @@ function Page() {
       description="Seamlessly accept crypto payments in your Telegram bots and services."
     >
       <Header />
+
+      <Offer />
+
+      <Footer />
     </Layout>
   );
 }

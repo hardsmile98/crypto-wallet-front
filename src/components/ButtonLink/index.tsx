@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 
 interface ButtonLinkProps {
   type?: 'default' | 'secondary' | 'outlined'
+  className?: string,
   href: string
   children: React.ReactNode
 }
@@ -16,11 +17,12 @@ const stylesMap = {
 
 function ButtonLink({
   type = 'default',
+  className,
   href,
   children,
 }: ButtonLinkProps) {
   return (
-    <Link href={href} className={`${styles.link} ${stylesMap[type]}`}>
+    <Link href={href} className={`${styles.link} ${stylesMap[type]} ${className}`}>
       {children}
     </Link>
   );

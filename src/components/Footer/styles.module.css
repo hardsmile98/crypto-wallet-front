@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--bgSecondary);
+    color: var(--textSecondary);
+    padding-top: calc(var(--uint) * 15);
+    padding-bottom: calc(var(--uint) * 5);
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    column-gap: calc(var(--uint) * 4);
+}
+
+.menu ul > li > a:hover {
+    color: var(--primary);
+}
+
+.copy {
+    margin-top: calc(var(--uint) * 3);
+}
