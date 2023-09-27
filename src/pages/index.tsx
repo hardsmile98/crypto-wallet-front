@@ -4,9 +4,8 @@ import { Layout } from '@components/index';
 function Page() {
   return (
     <Layout
-      title="SiteAlert | reliable site availability monitoring"
-      description="Monitoring the availability of your site.
-      Get error results immediately by mail, SMS or instant messengers"
+      title="Crypto payments for telegram bots"
+      description="Seamlessly accept crypto payments in your Telegram bots and services."
     >
       <div>
         Main
