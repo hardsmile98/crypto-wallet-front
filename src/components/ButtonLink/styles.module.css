@@ -1,0 +1,27 @@
+.link {
+    border-radius: calc(var(--uint) * 4);
+    padding: calc(var(--uint) * 2) calc(var(--uint) * 4);
+}
+
+.default {
+    color: var(--textSecondary);
+    background-color: var(--primary);
+}
+
+.default:hover {
+    background-color: var(--primaryDark);
+}
+
+.secondary {
+    color: var(--primaryDark);
+    background-color: var(--secondary);
+}
+
+.secondary:hover {
+    background-color: var(--secondaryDark);
+}
+
+.outlined {
+    border: 1px solid var(--textSecondary);
+    color: var(--textSecondary);
+}

@@ -1,5 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from 'assets/images/logo.svg';
+import ButtonLink from '../ButtonLink';
 import Container from '../Container';
 import styles from './styles.module.css';
 
@@ -26,9 +29,13 @@ function Header() {
     >
       <Container>
         <div className={styles.wrap}>
-          <div>
-            logo
-          </div>
+          <Link href="/">
+            <Image
+              className={styles.logo}
+              src={logo}
+              alt="logo"
+            />
+          </Link>
 
           <nav className={styles.menu}>
             <ul>
@@ -41,6 +48,13 @@ function Header() {
               ))}
             </ul>
           </nav>
+
+          <ButtonLink
+            href="#"
+            type="secondary"
+          >
+            Get started
+          </ButtonLink>
         </div>
       </Container>
     </header>
