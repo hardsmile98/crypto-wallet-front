@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 
 interface IProps {
-    title: string
-    description: string
+  title: string
+  description: string
 }
 
 const URL_SITE = process.env.NEXT_PUBLIC_SITE_URL || '';
