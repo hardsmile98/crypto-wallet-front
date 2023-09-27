@@ -1,6 +1,18 @@
 :root {
    --uint: 8px;
 
+   --primary: #41A4DF;
+   --primaryDark: #297EE2;
+   --secondary: #DCE6F2;
+   --secondaryDark: #D8E8F2;
+
+   --textPrimary: #0D0D12;
+   --textSecondary: #FFFFFF;
+
+   --bgPrimary: #fff;
+   --bgPrimaryDark: #F7F9FB;
+   --bgSecondary: #232328;
+
     --fs: 20px;
 }
 
@@ -13,6 +25,7 @@ html {
     overflow-x: hidden;
     font-size: var(--fs);
     font-family: "Inter", sans-serif;
+    color: var(--textPrimary);
 }
 
 * {

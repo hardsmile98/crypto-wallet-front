@@ -1,0 +1,17 @@
+.header {
+    padding: calc(var(--uint) * 5) 0;
+}
+
+.wrap {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    column-gap: calc(var(--uint) * 4);
+}
+
+.menu ul > li > a:hover {
+    color: var(--primary);
+}
