@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import Container from '@components/Container';
 import ButtonLink from '@components/ButtonLink';
-import js from 'assets/images/stacks/JS.svg';
-import net from 'assets/images/stacks/NET.svg';
+import js from 'assets/images/stacks/js.svg';
+import net from 'assets/images/stacks/net.svg';
 import php from 'assets/images/stacks/php.svg';
-import python from 'assets/images/stacks/Python.svg';
+import python from 'assets/images/stacks/python.svg';
 import go from 'assets/images/stacks/go.svg';
 import styles from './styles.module.css';
 
