@@ -25,3 +25,9 @@
     border: 1px solid var(--textSecondary);
     color: var(--textSecondary);
 }
+
+@media only screen and (max-width: 600px) {
+    .link {
+        padding: calc(var(--uint) * 1.5) calc(var(--uint) * 3);
+    }
+}

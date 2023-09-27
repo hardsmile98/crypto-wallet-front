@@ -43,8 +43,8 @@ function Community() {
       id="community"
       className={styles.root}
     >
-      <div className={styles.wrap}>
-        <Container>
+      <Container>
+        <div className={styles.wrap}>
           <h2>
             Join dev community
           </h2>
@@ -75,8 +75,8 @@ function Community() {
           <ButtonLink href="#">
             Open Devs chat
           </ButtonLink>
-        </Container>
-      </div>
+        </div>
+      </Container>
     </section>
   );
 }

@@ -29,3 +29,21 @@
 .copy {
     margin-top: calc(var(--uint) * 3);
 }
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding-top: calc(var(--uint) * 7);
+        padding-bottom: calc(var(--uint) * 4);
+    }
+
+    .logo {
+        width: 46px;
+        height: 46px;
+    }
+}

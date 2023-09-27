@@ -1,11 +1,13 @@
 .root {
-    background-color: var(--bgSecondary);
+    padding: calc(var(--uint) * 10) 0;
+    border-radius: 0 0 calc(var(--uint) * 3) calc(var(--uint) * 3);
+    border-radius: 16px;
+    background: var(--bgPrimary);
+    position: relative;
+    bottom: calc(var(--uint) * -3);
 }
 
 .wrap {
-    padding: calc(var(--uint) * 10) 0;
-    background-color: var(--bgPrimary);
-    border-radius: 0 0 calc(var(--uint) * 2) calc(var(--uint) * 2);
     text-align: center;
 }
 
@@ -19,6 +21,7 @@
 .stacks {
     margin-bottom: calc(var(--uint) * 5);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: calc(var(--uint) * 6);
 }
@@ -35,4 +38,34 @@
 
 .stack p {
     margin-top: calc(var(--uint) * 0.5);
+}
+
+@media only screen and (max-width: 900px) {
+    .stacks {
+        gap: calc(var(--uint) * 3);
+    }
+
+    .stack {
+        max-width: 110px;
+    }
+
+    .stack img {
+        width: 74px;
+        height: 74px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .description {
+        margin-bottom: calc(var(--uint) * 3);
+    }
+
+    .stacks {
+        justify-content: flex-start;
+    }
+
+    .stack img {
+        width: 62px;
+        height: 62px;
+    }
 }
