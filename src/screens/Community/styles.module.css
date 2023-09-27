@@ -1,5 +1,6 @@
 .root {
-    padding: calc(var(--uint) * 10) 0;
+    padding-bottom: calc(var(--uint) * 10);
+    padding-top: calc(var(--uint) * 3);
     border-radius: 0 0 calc(var(--uint) * 3) calc(var(--uint) * 3);
     border-radius: 16px;
     background: var(--bgPrimary);
@@ -40,9 +41,9 @@
     margin-top: calc(var(--uint) * 0.5);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .stacks {
-        gap: calc(var(--uint) * 3);
+        gap: calc(var(--uint) * 4);
     }
 
     .stack {
@@ -50,22 +51,34 @@
     }
 
     .stack img {
-        width: 74px;
-        height: 74px;
+        width: 72px;
+        height: 72px;
     }
 }
 
 @media only screen and (max-width: 600px) {
+    .root {
+        padding-top: calc(var(--uint) * 1);
+        padding-bottom: calc(var(--uint) * 5);
+    }
+
     .description {
         margin-bottom: calc(var(--uint) * 3);
     }
 
     .stacks {
         justify-content: flex-start;
+        row-gap: calc(var(--uint) * 3);
+        column-gap: calc(var(--uint) * 2);
+        margin-bottom: calc(var(--uint) * 3);
+    }
+
+    .stack {
+        max-width: 100px;
     }
 
     .stack img {
-        width: 62px;
-        height: 62px;
+        width: 60px;
+        height: 60px;
     }
 }

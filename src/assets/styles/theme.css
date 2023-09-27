@@ -6,12 +6,15 @@
    --secondary: #E5F0FC;
    --secondaryDark: #D8E8F2;
 
-   --textPrimary: #0D0D12;
+   --textHead: #0D0D12;
+   --textPrimary: #111111;
    --textSecondary: #FFFFFF;
 
    --bgPrimary: #fff;
    --bgPrimaryDark: #F7F9FB;
    --bgSecondary: #232328;
+
+   --gradient: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
 
     --fs: 20px;
 }
@@ -27,6 +30,15 @@ html {
     font-family: "Inter", sans-serif;
     color: var(--textPrimary);
     line-height: 1.2;
+}
+
+h1,
+h2,
+h3
+h4,
+h5,
+h6 {
+    color: var(--textHead);
 }
 
 h1 {

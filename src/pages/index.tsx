@@ -1,6 +1,6 @@
 import React from 'react';
 import { Footer, Header, Layout } from '@components/index';
-import { Offer, Community } from 'screens';
+import { Community, Api } from 'screens';
 
 function Page() {
   return (
@@ -10,7 +10,7 @@ function Page() {
     >
       <Header />
 
-      <Offer />
+      <Api />
 
       <Community />
 
