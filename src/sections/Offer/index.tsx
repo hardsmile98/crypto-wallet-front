@@ -13,7 +13,7 @@ function Offer() {
     >
       <Container>
         <div className={styles.wrap}>
-          <div>
+          <div className={styles.offer}>
             <div className={styles.content}>
               <h1 className={styles.title}>
                 {'Crypto payments for '}

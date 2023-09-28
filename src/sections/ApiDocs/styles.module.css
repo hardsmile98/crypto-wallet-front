@@ -6,6 +6,7 @@
     align-items: center;
     padding: 0 calc(var(--uint) * 10);
     background: url('../../assets/images/api_bg.webp'), var(--gradient);
+    background-size: cover;
 }
 
 .wrap h2 {
