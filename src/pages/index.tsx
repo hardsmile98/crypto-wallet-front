@@ -1,6 +1,10 @@
 import React from 'react';
 import { Footer, Header, Layout } from '@components/index';
-import { Community, Api } from 'screens';
+import {
+  Community,
+  ApiDocs,
+  QuickStart,
+} from 'sections';
 
 function Page() {
   return (
@@ -10,7 +14,9 @@ function Page() {
     >
       <Header />
 
-      <Api />
+      <QuickStart />
+
+      <ApiDocs />
 
       <Community />
 

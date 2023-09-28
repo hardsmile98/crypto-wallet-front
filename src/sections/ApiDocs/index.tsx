@@ -3,7 +3,7 @@ import React from 'react';
 import ButtonLink from '@components/ButtonLink';
 import styles from './styles.module.css';
 
-function Api() {
+function ApiDocs() {
   return (
     <section id="api">
       <Container>
@@ -28,4 +28,4 @@ function Api() {
   );
 }
 
-export default Api;
+export default ApiDocs;

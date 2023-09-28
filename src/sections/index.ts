@@ -1,11 +1,13 @@
 import Offer from './Offer';
 import UseCases from './UseCases';
-import Api from './Api';
+import QuickStart from './QuickStart';
+import ApiDocs from './ApiDocs';
 import Community from './Community';
 
 export {
   Offer,
   UseCases,
-  Api,
+  QuickStart,
+  ApiDocs,
   Community,
 };

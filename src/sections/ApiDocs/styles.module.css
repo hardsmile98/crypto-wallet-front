@@ -25,14 +25,14 @@
         display: flex;
         align-items: flex-end;
         padding: calc(var(--uint) * 4) calc(var(--uint) * 3);
-        background: url('../../assets/images/api_bg_mobile.webp') no-repeat center 50%, var(--gradient);
+        background: url('../../assets/images/api_bg_mobile.webp') no-repeat center center, var(--gradient);
         background-size: cover;
     }
 
     .wrap h2 {
         margin-bottom: calc(var(--uint) * 3);
     }
-    
+
     .wrap p {
         max-width: 100%;
         margin-bottom: calc(var(--uint) * 3);
