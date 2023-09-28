@@ -12,23 +12,36 @@ function Offer() {
       className={styles.root}
     >
       <Container>
-        <div>
+        <div className={styles.wrap}>
           <div>
-            <h1>
-              {'Crypto payments for '}
-              <span>telegram bots</span>
-            </h1>
+            <div className={styles.content}>
+              <h1 className={styles.title}>
+                {'Crypto payments for '}
+                <span>telegram bots</span>
+              </h1>
 
-            <p>
-              Seamlessly accept crypto payments in your Telegram bots and services.
-            </p>
+              <p className={styles.description}>
+                Seamlessly accept crypto payments in your Telegram bots and services.
+              </p>
 
-            <ButtonLink href="#">
-              Get started
-            </ButtonLink>
+              <ButtonLink href="#">
+                Get started
+              </ButtonLink>
+            </div>
+
+            <div>
+              <p>
+                Popular bots use Crypto Pay
+              </p>
+            </div>
           </div>
 
-          <Image src={mobile} alt="mobile" />
+          <Image
+            priority
+            className={styles.mobile}
+            src={mobile}
+            alt="mobile"
+          />
         </div>
       </Container>
     </section>

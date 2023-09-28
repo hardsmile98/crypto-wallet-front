@@ -39,6 +39,7 @@ h3,
 h4,
 h5,
 h6 {
+    line-height: 1.15;
     color: var(--textHead);
 }
 
@@ -52,7 +53,7 @@ h6 span {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 78px;
 }
 
 h2 {
@@ -77,6 +78,36 @@ h6 {
 
 section {
     padding: calc(var(--uint) * 12) 0;
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    h6 {
+        font-size: 22px;
+    }
+
+    section {
+        padding: calc(var(--uint) * 6) 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
