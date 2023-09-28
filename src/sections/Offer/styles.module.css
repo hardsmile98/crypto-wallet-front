@@ -21,6 +21,20 @@
     margin-bottom: calc(var(--uint) * 4);
 }
 
+.badges {
+    position: relative;
+    margin-bottom: calc(var(--uint) * 1);
+}
+
+.badges img {
+  width: 96px;
+  height: 96px;
+}
+
+.badge {
+    margin-left: calc(var(--uint) * -4);
+}
+
 .mobile {
     width: 415px;
     height: 770px;
@@ -67,6 +81,15 @@
     .description {
         margin-bottom: calc(var(--uint) * 2);
     }
+
+    .badges img {
+        width: 64px;
+        height: 64px;
+      }
+      
+      .badge {
+          margin-left: calc(var(--uint) * -2);
+      }
 
     .content,
     .title {
