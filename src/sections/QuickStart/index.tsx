@@ -10,8 +10,7 @@ function QuickStart() {
     >
       <Container>
         <h2 className={styles.head}>
-          Quick start using
-          {' '}
+          {'Quick start using '}
           <span>Crypto Pay</span>
         </h2>
       </Container>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Footer, Header, Layout } from '@components/index';
 import {
+  Offer,
   Community,
   ApiDocs,
   QuickStart,
@@ -13,6 +14,8 @@ function Page() {
       description="Seamlessly accept crypto payments in your Telegram bots and services."
     >
       <Header />
+
+      <Offer />
 
       <QuickStart />
 
