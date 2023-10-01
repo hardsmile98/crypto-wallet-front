@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 
 function ApiDocs() {
   return (
-    <section id="api">
+    <section id="apidocs">
       <Container>
         <div className={styles.wrap}>
           <div>

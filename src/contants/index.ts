@@ -1,7 +1,7 @@
 const menuLiks = [
   {
     title: 'Use cases',
-    href: '#usecase',
+    href: '#usecases',
   },
   {
     title: 'Features',

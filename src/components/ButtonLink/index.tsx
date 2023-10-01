@@ -27,7 +27,7 @@ function ButtonLink({
     <Link
       href={href}
       target={target}
-      className={`${styles.link} ${stylesMap[type]} ${className}`}
+      className={`${styles.link} ${stylesMap[type]} ${className ?? ''}`}
     >
       {children}
     </Link>
