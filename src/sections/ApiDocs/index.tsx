@@ -1,6 +1,7 @@
 import Container from '@components/Container';
 import React from 'react';
 import ButtonLink from '@components/ButtonLink';
+import { hrefToBot } from 'contants';
 import styles from './styles.module.css';
 
 function ApiDocs() {
@@ -18,7 +19,10 @@ function ApiDocs() {
               and integrate them in any programming language.
             </p>
 
-            <ButtonLink href="#" type="outlined">
+            <ButtonLink
+              href={hrefToBot}
+              type="outlined"
+            >
               Open API Docs
             </ButtonLink>
           </div>

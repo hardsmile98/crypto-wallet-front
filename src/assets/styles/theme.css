@@ -10,13 +10,17 @@
     --textPrimary: #111111;
     --textSecondary: #FFFFFF;
 
-    --bgPrimary: #fff;
+    --bgPrimary: #FFF;
     --bgPrimaryDark: #F7F9FB;
     --bgSecondary: #232328;
 
     --gradient: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
+    --gradientStep1: linear-gradient(297deg, #8EC5FC 8.25%, #E0C3FC 91.76%);
+
+    --stepButton: #8198D1;
 
     --fs: 20px;
+    --fsSmall: 18px;
 }
 
 body {

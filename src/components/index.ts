@@ -3,6 +3,7 @@ import Container from './Container';
 import Header from './Header';
 import Footer from './Footer';
 import ButtonLink from './ButtonLink';
+import Link from './Link';
 
 export {
   Layout,
@@ -10,4 +11,5 @@ export {
   Header,
   Footer,
   ButtonLink,
+  Link,
 };

@@ -13,6 +13,9 @@ const menuLiks = [
   },
 ];
 
+const hrefToBot = 'https://t.me/CryptoBot';
+
 export {
   menuLiks,
+  hrefToBot,
 };

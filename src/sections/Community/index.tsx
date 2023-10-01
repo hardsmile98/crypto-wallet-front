@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { hrefToBot } from 'contants';
 import Container from '@components/Container';
 import ButtonLink from '@components/ButtonLink';
 import js from 'assets/images/stacks/js.svg';
@@ -72,7 +73,7 @@ function Community() {
             ))}
           </div>
 
-          <ButtonLink href="#">
+          <ButtonLink href={hrefToBot}>
             Open Devs chat
           </ButtonLink>
         </div>

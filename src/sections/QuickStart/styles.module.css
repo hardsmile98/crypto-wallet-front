@@ -5,3 +5,80 @@
 .head {
     text-align: center;
 }
+
+.step {
+    margin-top: calc(var(--uint) * 5);
+    display: flex;
+    column-gap: calc(var(--uint) * 3);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stepExample {
+    height: 490px;
+    width: 50%;
+    border-radius: calc(var(--uint) * 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.example1 {
+    background: var(--gradientStep1);
+}
+
+.stepNumber {
+    width: 64px;
+    height: 64px;
+    background-color: var(--bgSecondary);
+    color: var(--textSecondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: calc(var(--uint) * 2);
+}
+
+.stepTitle {
+    margin-bottom: calc(var(--uint) * 2);
+}
+
+.stepContent li {
+    margin-bottom: calc(var(--uint) * 1);
+}
+
+.stepContent li span {
+    color: var(--primary);
+}
+
+.message {
+    font-size: var(--fsSmall);
+    width: 70%;
+    word-wrap: break-word;
+}
+
+.messageText {
+    background-color: var(--bgPrimary);
+    padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
+    border-radius: calc(var(--uint) * 2) calc(var(--uint) * 2) calc(var(--uint) * 1) calc(var(--uint) * 1);
+}
+
+.messageButton {
+    margin-top: calc(var(--uint) * 0.5);
+    text-align: center;
+    background-color: var(--stepButton);
+    color: var(--textSecondary);
+    padding: calc(var(--uint) * 2)  calc(var(--uint) * 3);
+    border-radius: calc(var(--uint) * 1) calc(var(--uint) * 1)  calc(var(--uint) * 2) calc(var(--uint) * 2);
+}
+
+.messageContent span {
+    font-weight: 500;
+}
+
+.date {
+    margin-top: calc(var(--uint) * 0.5);
+    text-align: right;
+    opacity: 0.4;
+    font-size: 14px;
+}
