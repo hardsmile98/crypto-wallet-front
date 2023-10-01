@@ -11,10 +11,14 @@
     display: flex;
     gap: calc(var(--uint) * 3);
     align-items: center;
-    justify-content: space-between;
+}
+
+.stepText {
+    width: 50%;
 }
 
 .stepExample {
+    padding: 0 calc(var(--uint) * 10);
     height: 490px;
     width: 50%;
     border-radius: calc(var(--uint) * 5);
@@ -23,8 +27,20 @@
     justify-content: center;
 }
 
+.lineWithPadding {
+    margin-left: calc(var(--uint) * 2);
+}
+
 .example1 {
     background: var(--gradientStep1);
+}
+
+.example2 {
+    background: var(--gradientStep2);
+}
+
+.example3 {
+    background: var(--gradientStep3);
 }
 
 .stepNumber {
@@ -40,22 +56,57 @@
     margin-bottom: calc(var(--uint) * 2);
 }
 
-.stepTitle {
+.stepTitle,
+.stepDescription {
     margin-bottom: calc(var(--uint) * 2);
 }
 
-.stepContent li {
+.stepList li:not(:last-of-type) {
     margin-bottom: calc(var(--uint) * 1);
 }
 
-.stepContent li span {
+.stepList li span {
     color: var(--primary);
 }
 
+.list li::before {
+    content: "• ";
+    color: var(--primary);
+}
+
+.rigthBlock {
+    padding-left: calc(var(--uint) * 7);
+}
+
 .message {
+    width: 100%;
     font-size: var(--fsSmall);
-    width: 70%;
     word-wrap: break-word;
+}
+
+.code {
+    width: 100%;
+    font-size: var(--fsSmall);
+    background: var(--bgCode);
+    color: var(--textSecondary);
+    border-radius: calc(var(--uint) * 2);
+    padding: calc(var(--uint) * 2);
+}
+
+.code p:not(:last-of-type) {
+    margin-bottom: calc(var(--uint) * 1);
+}
+
+.codeBlue {
+    color: var(--codeBlue);
+}
+
+.codeYellow {
+    color: var(--codeYellow);
+}
+
+.codeRed {
+    color: var(--codeRed);
 }
 
 .messageText {
@@ -90,7 +141,7 @@
     margin-top: calc(var(--uint) * 0.5);
     text-align: right;
     opacity: 0.4;
-    font-size: 14px;
+    font-size: var(--fsBigSmall);
 }
 
 @media only screen and (max-width: 900px) {
@@ -98,9 +149,18 @@
         flex-wrap: wrap;
     }
 
+    .rigthBlock {
+        padding-left: 0;
+    }
+
     .stepExample {
         order: 0;
         height: 370px;
+        padding: 0 calc(var(--uint) * 8);
+        width: 100%;
+    }
+
+    .stepText {
         width: 100%;
     }
 
@@ -129,16 +189,13 @@
         height: 36px;
     }
 
-    .message {
-        width: 80%;
-    }
-
     .messageContent img {
         width: 14px;
         height: 14px;
     }
 
     .stepExample {
-        height: 320px;
+        height: 280px;
+        padding: 0 calc(var(--uint) * 2);
     }    
 }

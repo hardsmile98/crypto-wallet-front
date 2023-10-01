@@ -13,14 +13,22 @@
     --bgPrimary: #FFF;
     --bgPrimaryDark: #F7F9FB;
     --bgSecondary: #232328;
+    --bgCode: #0D0D12;
 
     --gradient: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
     --gradientStep1: linear-gradient(297deg, #8EC5FC 8.25%, #E0C3FC 91.76%);
+    --gradientStep2: linear-gradient(207deg, #FCB69F 6.91%, #FFECD2 92.45%);
+    --gradientStep3: linear-gradient(0deg, #C2E9FB -16.6%, #A1C4FD 106.15%);
 
     --stepButton: #8198D1;
 
+    --codeBlue: #5DB0E2;
+    --codeYellow: #FCEF8F;
+    --codeRed: #D46565;
+
     --fs: 20px;
     --fsSmall: 18px;
+    --fsBigSmall: 14px;
 }
 
 body {
@@ -84,6 +92,32 @@ section {
     padding: calc(var(--uint) * 12) 0;
 }
 
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        font-size: 36px;
+    }
+    
+    h4 {
+        font-size: 34px;
+    }
+    
+    h5 {
+        font-size: 30px;
+    }
+    
+    h6 {
+        font-size: 26px;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     h1 {
         font-size: 56px;
@@ -110,7 +144,7 @@ section {
     }
 
     section {
-        padding: calc(var(--uint) * 6) 0;
+        padding: calc(var(--uint) * 8) 0;
     }
 }
 
@@ -118,6 +152,7 @@ section {
     :root {
         --fs: 18px;
         --fsSmall: 14px;
+        --fsBigSmall: 12px;
     }
 
     h1 {
@@ -129,7 +164,7 @@ section {
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     h4 {

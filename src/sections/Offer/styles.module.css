@@ -47,10 +47,6 @@
         margin-right: calc(var(--uint) * -5);
         margin-left: calc(var(--uint) * 3);
     }
-
-    .offer {
-        min-width: 540px;
-    }
 }
 
 @media only screen and (max-width: 900px) {

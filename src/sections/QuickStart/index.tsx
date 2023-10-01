@@ -30,7 +30,7 @@ function QuickStart() {
                   Authorizing your app
                 </h3>
 
-                <ul className={styles.stepContent}>
+                <ul className={styles.stepList}>
                   <li>
                     {'1. Open '}
                     <Link href={hrefToBot}>
@@ -90,6 +90,160 @@ function QuickStart() {
                 <div className={styles.messageButton}>
                   Revoke Token
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.step}>
+            <div className={`${styles.stepExample} ${styles.example2}`}>
+              <div className={styles.code}>
+                <p>
+                  asset
+                  <span className={styles.codeBlue}>
+                    =
+                  </span>
+                  <span className={styles.codeYellow}>
+                    TON
+                  </span>
+                  <span className={styles.codeRed}>
+                    &
+                  </span>
+                  amount
+                  <span className={styles.codeBlue}>
+                    =
+                  </span>
+                  <span className={styles.codeYellow}>
+                    2.75
+                  </span>
+                </p>
+                <p>
+                  {'{"asset":'}
+                  <span className={styles.codeBlue}>
+                    "TON"
+                  </span>
+                  , "amount":
+                  <span className={styles.codeBlue}>
+                    "2.75"
+                  </span>
+                  {'}'}
+                </p>
+              </div>
+            </div>
+
+            <div className={`${styles.stepText} ${styles.rigthBlock}`}>
+              <h3 className={styles.stepNumber}>
+                2
+              </h3>
+
+              <div>
+                <h3 className={styles.stepTitle}>
+                  Crypto Pay API Request
+                </h3>
+
+                <div className={styles.stepDescription}>
+                  <p>
+                    Requests are only served over HTTPS
+                  </p>
+                  <p>
+                    To pass parameters use:
+                  </p>
+                </div>
+
+                <ul className={`${styles.stepList} ${styles.list}`}>
+                  <li>
+                    <span>
+                      URL query string
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      application/json
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      application/x-www-form-urlencoded
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      multipart/form-data
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.step}>
+            <div className={styles.stepText}>
+              <h3 className={styles.stepNumber}>
+                3
+              </h3>
+
+              <div>
+                <h3 className={styles.stepTitle}>
+                  Getting updates
+                </h3>
+
+                <div className={styles.stepDescription}>
+                  <p>
+                    There are two ways of receiving updates for your app:
+                  </p>
+                </div>
+
+                <ul className={`${styles.stepList} ${styles.list}`}>
+                  <li>
+                    <span>
+                      getInvoices
+                    </span>
+                    {' method to get a list of created invoices.'}
+                  </li>
+                  <li>
+                    <span>
+                      Webhooks
+                    </span>
+                    {' to receive updates in realtime.'}
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className={`${styles.stepExample} ${styles.example3}`}>
+              <div className={styles.code}>
+                <p>
+                  <span className={styles.codeBlue}>
+                    Invoice
+                  </span>
+                  (
+                </p>
+                <p className={styles.lineWithPadding}>
+                  <span className={styles.codeBlue}>
+                    payload:
+                  </span>
+                  {' "item:monthly_premium",'}
+                </p>
+                <p className={styles.lineWithPadding}>
+                  <span className={styles.codeBlue}>
+                    status:
+                  </span>
+                  {' "paid",'}
+                </p>
+                <p className={styles.lineWithPadding}>
+                  <span className={styles.codeBlue}>
+                    amount:
+                  </span>
+                  {' "3.99",'}
+                </p>
+                <p className={styles.lineWithPadding}>
+                  <span className={styles.codeBlue}>
+                    asset:
+                  </span>
+                  {' "USDT",'}
+                </p>
+                <p>
+                  )
+                </p>
               </div>
             </div>
           </div>
