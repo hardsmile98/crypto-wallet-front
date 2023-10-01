@@ -77,6 +77,15 @@
     font-weight: 500;
 }
 
+.messageContent img {
+    vertical-align: middle;
+    line-height: inherit;
+    transform: translateY(-0.08em);
+    width: 18px;
+    height: 18px;
+}
+
+
 .date {
     margin-top: calc(var(--uint) * 0.5);
     text-align: right;
@@ -122,6 +131,11 @@
 
     .message {
         width: 80%;
+    }
+
+    .messageContent img {
+        width: 14px;
+        height: 14px;
     }
 
     .stepExample {

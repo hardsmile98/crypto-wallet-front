@@ -1,7 +1,9 @@
 import React from 'react';
 import Container from '@components/Container';
+import warning from 'assets/images/emoticons/warning.svg';
 import Link from '@components/Link';
 import { hrefToBot } from 'contants';
+import Image from 'next/image';
 import styles from './styles.module.css';
 
 function QuickStart() {
@@ -71,8 +73,12 @@ function QuickStart() {
                     </p>
                     <br />
                     <p>
-                      This token can be used by anyone to control your app.
-                      Keep and store it safely.
+                      <Image
+                        src={warning}
+                        alt="warnig"
+                      />
+                      {` This token can be used by anyone to control your app.
+                      Keep and store it safely.`}
                     </p>
                   </div>
 
