@@ -9,7 +9,7 @@
 .step {
     margin-top: calc(var(--uint) * 5);
     display: flex;
-    column-gap: calc(var(--uint) * 3);
+    gap: calc(var(--uint) * 3);
     align-items: center;
     justify-content: space-between;
 }
@@ -28,6 +28,7 @@
 }
 
 .stepNumber {
+    flex-shrink: 0;
     width: 64px;
     height: 64px;
     background-color: var(--bgSecondary);
@@ -81,4 +82,49 @@
     text-align: right;
     opacity: 0.4;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 900px) {
+    .step {
+        flex-wrap: wrap;
+    }
+
+    .stepExample {
+        order: 0;
+        height: 370px;
+        width: 100%;
+    }
+
+    .stepNumber {
+        width: 46px;
+        height: 46px;
+    }
+
+    .stepText {
+        display: flex;
+        column-gap: calc(var(--uint) * 2);
+    }
+
+    .stepText {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .step {
+        margin-top: calc(var(--uint) * 3);
+    }
+
+    .stepNumber {
+        width: 36px;
+        height: 36px;
+    }
+
+    .message {
+        width: 80%;
+    }
+
+    .stepExample {
+        height: 320px;
+    }    
 }

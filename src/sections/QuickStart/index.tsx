@@ -23,36 +23,38 @@ function QuickStart() {
                 1
               </h3>
 
-              <h3 className={styles.stepTitle}>
-                Authorizing your app
-              </h3>
+              <div>
+                <h3 className={styles.stepTitle}>
+                  Authorizing your app
+                </h3>
 
-              <ul className={styles.stepContent}>
-                <li>
-                  {'1. Open '}
-                  <Link href={hrefToBot}>
-                    @CryptoBot
-                  </Link>
-                </li>
-                <li>
-                  {'2. Go to '}
-                  <span>
-                    Crypto Pay
-                  </span>
-                </li>
-                <li>
-                  {'3. Tap '}
-                  <span>
-                    Create App
-                  </span>
-                </li>
-                <li>
-                  {'4. Get '}
-                  <span>
-                    API Token
-                  </span>
-                </li>
-              </ul>
+                <ul className={styles.stepContent}>
+                  <li>
+                    {'1. Open '}
+                    <Link href={hrefToBot}>
+                      @CryptoBot
+                    </Link>
+                  </li>
+                  <li>
+                    {'2. Go to '}
+                    <span>
+                      Crypto Pay
+                    </span>
+                  </li>
+                  <li>
+                    {'3. Tap '}
+                    <span>
+                      Create App
+                    </span>
+                  </li>
+                  <li>
+                    {'4. Get '}
+                    <span>
+                      API Token
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div className={`${styles.stepExample} ${styles.example1}`}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { menuLiks } from 'contants';
+import { hrefToBot, menuLiks } from 'contants';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from 'assets/images/logo.svg';
@@ -36,7 +36,7 @@ function Footer() {
           </nav>
 
           <ButtonLink
-            href="#"
+            href={hrefToBot}
             type="outlined"
           >
             Get started
