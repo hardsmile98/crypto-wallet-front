@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from 'assets/images/logo.svg';
-import { hrefToBot, menuLiks } from 'contants';
+import { hrefs, menuLiks } from 'contants';
 import ButtonLink from '../ButtonLink';
 import Container from '../Container';
 import styles from './styles.module.css';
@@ -36,7 +36,7 @@ function Header() {
           </nav>
 
           <ButtonLink
-            href={hrefToBot}
+            href={hrefs.bot}
             type="secondary"
           >
             Get started

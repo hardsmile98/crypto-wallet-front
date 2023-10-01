@@ -3,7 +3,7 @@ import mobile from 'assets/images/mobile.webp';
 import Container from '@components/Container';
 import ButtonLink from '@components/ButtonLink';
 import Image from 'next/image';
-import { hrefToBot } from 'contants';
+import { hrefs } from 'contants';
 import badge1 from '@assets/images/badges/1.webp';
 import badge2 from '@assets/images/badges/2.webp';
 import badge3 from '@assets/images/badges/3.webp';
@@ -53,7 +53,7 @@ function Offer() {
                 Seamlessly accept crypto payments in your Telegram bots and services.
               </p>
 
-              <ButtonLink href={hrefToBot}>
+              <ButtonLink href={hrefs.bot}>
                 Get started
               </ButtonLink>
             </div>

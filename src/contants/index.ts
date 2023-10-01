@@ -13,9 +13,13 @@ const menuLiks = [
   },
 ];
 
-const hrefToBot = 'https://t.me/CryptoBot';
+const hrefs = {
+  bot: 'https://t.me/CryptoBot',
+  devsChat: 'https://t.me/CryptoPayDevRU',
+  apiDocs: 'https://help.crypt.bot/crypto-pay-api',
+};
 
 export {
   menuLiks,
-  hrefToBot,
+  hrefs,
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '@components/Container';
 import warning from 'assets/images/emoticons/warning.svg';
 import Link from '@components/Link';
-import { hrefToBot } from 'contants';
+import { hrefs } from 'contants';
 import Image from 'next/image';
 import styles from './styles.module.css';
 
@@ -33,7 +33,7 @@ function QuickStart() {
                 <ul className={styles.stepList}>
                   <li>
                     {'1. Open '}
-                    <Link href={hrefToBot}>
+                    <Link href={hrefs.bot}>
                       @CryptoBot
                     </Link>
                   </li>
