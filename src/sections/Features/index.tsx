@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from '@components/Container';
 
-function UseCases() {
+function Features() {
   return (
-    <section>
+    <section id="features">
       <Container>
         12313213
       </Container>
@@ -11,4 +11,4 @@ function UseCases() {
   );
 }
 
-export default UseCases;
+export default Features;

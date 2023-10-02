@@ -5,6 +5,7 @@ import {
   Community,
   ApiDocs,
   QuickStart,
+  Features,
 } from 'sections';
 
 function Page() {
@@ -16,6 +17,8 @@ function Page() {
       <Header />
 
       <Offer />
+
+      <Features />
 
       <QuickStart />
 
