@@ -15,9 +15,9 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@types/node": "18.11.10",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
+    "@types/node": "20.8.0",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.8",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.2.0",
