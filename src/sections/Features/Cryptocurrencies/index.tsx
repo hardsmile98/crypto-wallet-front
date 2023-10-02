@@ -12,34 +12,42 @@ import styles from './styles.module.css';
 
 const currencies = [
   {
+    id: 1,
     image: eth,
     label: 'ETH',
   },
   {
+    id: 2,
     image: usdt,
     label: 'USDT',
   },
   {
+    id: 3,
     image: ton,
     label: 'TON',
   },
   {
+    id: 4,
     image: btc,
     label: 'BTC',
   },
   {
+    id: 5,
     image: trx,
     label: 'TRX',
   },
   {
+    id: 6,
     image: ltc,
     label: 'LTC',
   },
   {
+    id: 7,
     image: usdc,
     label: 'USDC',
   },
   {
+    id: 8,
     image: bnb,
     label: 'BNB',
   },
@@ -62,7 +70,7 @@ function Cryptocurrencies() {
 
       <ul className={styles.currencies}>
         {currencies.map((currency) => (
-          <li key={currency.label}>
+          <li key={currency.id}>
             <Image
               src={currency.image}
               alt={currency.label}
