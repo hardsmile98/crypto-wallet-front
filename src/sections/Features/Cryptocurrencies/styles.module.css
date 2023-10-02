@@ -22,9 +22,14 @@
 }
 
 .currencies li p {
+    margin-top: calc(var(--uint) * 1);
     opacity: 0.4;
     font-size: var(--fsBigSmall);
     font-weight: 500;
+}
+
+[data-theme='dark'] .currencies li p {
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 1200px) {

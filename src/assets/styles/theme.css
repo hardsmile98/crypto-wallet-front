@@ -15,6 +15,8 @@
     --bgSecondary: #232328;
     --bgCode: #0D0D12;
 
+    --select: rgba(0,0,0,0.04);
+
     --gradient: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
     --gradientStep1: linear-gradient(297deg, #8EC5FC 8.25%, #E0C3FC 91.76%);
     --gradientStep2: linear-gradient(207deg, #FCB69F 6.91%, #FFECD2 92.45%);
@@ -31,9 +33,28 @@
     --fsBigSmall: 14px;
 }
 
+[data-theme='dark']:root {
+    --primary: #41A4DF;
+    --primaryDark: #297EE2;
+    --secondary: #E5F0FC;
+    --secondaryDark: #D8E8F2;
+
+    --textHead: #FFF;
+    --textPrimary: #FFF;
+    --textSecondary: #FFF;
+
+    --select: rgba(255,255,255,0.04);
+
+    --bgPrimary: #0D0D12;
+    --bgPrimaryDark: #232328;
+    --bgSecondary: #232328;
+    --bgCode: #0D0D12;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--bgPrimary);
 }
 
 html {
