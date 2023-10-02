@@ -1,0 +1,36 @@
+.exchange {
+    position: relative;
+    margin-bottom: calc(var(--uint) * 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coins {
+    position: relative;
+    padding-right: 48px;
+}
+
+.coins img {
+    position: relative;
+}
+
+.coins img:not(:first-of-type){
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+}
+
+.coins img:nth-child(2){
+    left: 24px;
+}
+
+.coins img:nth-child(3){
+    left: 48px;
+}
+
+.swap {
+    right: calc(50% - 24px);
+    transform: translateX(50%);
+    position: absolute;
+}

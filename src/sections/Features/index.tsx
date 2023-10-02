@@ -1,7 +1,9 @@
 import React from 'react';
 import Container from '@components/Container';
 import Cryptocurrencies from './Cryptocurrencies';
-import CreateApp from './CreateApp';
+import OneClick from './OneClick';
+import Exchange from './Exchange';
+import SendCoins from './SendCoins';
 import styles from './styles.module.css';
 
 function Features() {
@@ -16,11 +18,11 @@ function Features() {
           <div className={styles.widgetsWrap}>
             <div className={styles.widgets}>
               <div className={styles.wrap}>
-                <CreateApp />
+                <OneClick />
               </div>
 
               <div className={styles.wrap}>
-                Real-time exchange rates
+                <Exchange />
               </div>
             </div>
 
@@ -31,7 +33,7 @@ function Features() {
 
           <div className={styles.widgetsWrap}>
             <div className={styles.wrap}>
-              Send coins to users
+              <SendCoins />
             </div>
 
             <div className={styles.widgets}>

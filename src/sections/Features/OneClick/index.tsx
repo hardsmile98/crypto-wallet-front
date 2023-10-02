@@ -5,7 +5,7 @@ import { Link } from '@components/index';
 import { hrefs } from 'contants';
 import styles from './styles.module.css';
 
-function CreateApp() {
+function OneClick() {
   return (
     <>
       <div className={styles.buttonWrap}>
@@ -39,4 +39,4 @@ function CreateApp() {
   );
 }
 
-export default CreateApp;
+export default OneClick;
