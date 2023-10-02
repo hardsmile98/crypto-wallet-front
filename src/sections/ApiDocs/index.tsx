@@ -1,6 +1,5 @@
-import Container from '@components/Container';
 import React from 'react';
-import ButtonLink from '@components/ButtonLink';
+import { ButtonLink, Container } from '@components/index';
 import { hrefs } from 'contants';
 import styles from './styles.module.css';
 

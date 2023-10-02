@@ -1,4 +1,23 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--uint) * 2);
+}
+
+.widgetsWrap {
+    gap: calc(var(--uint) * 2);
+    display: flex;
+}
+
+.widgets {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--uint) * 2);
+    width: 40%;
+}
+
 .wrap {
+    flex-grow: 1;
     background-color: var(--bgPrimaryDark);
     border-radius: calc(var(--uint) * 5);
     padding: calc(var(--uint) * 5) calc(var(--uint) * 6);
@@ -15,5 +34,13 @@
 @media only screen and (max-width: 900px) {
     .wrap {
         padding: calc(var(--uint) * 4);
+    }
+
+    .widgetsWrap {
+        flex-direction: column;
+    }
+
+    .widgets {
+        width: 100%;
     }
 }

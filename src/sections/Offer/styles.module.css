@@ -81,11 +81,11 @@
     .badges img {
         width: 64px;
         height: 64px;
-      }
+    }
       
-      .badge {
-          margin-left: calc(var(--uint) * -2);
-      }
+    .badge {
+        margin-left: calc(var(--uint) * -2);
+    }
 
     .content,
     .title {

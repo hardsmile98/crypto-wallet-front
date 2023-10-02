@@ -6,7 +6,9 @@ import styles from './styles.module.css';
 
 function ThemeChanger() {
   const theme = 'light';
-  const setTheme = (theme) => {};
+  const setTheme = (newTheme: string) => {
+    console.log(newTheme);
+  };
 
   const changeTheme = () => setTheme(theme === 'light' ? 'dark' : 'light');
 

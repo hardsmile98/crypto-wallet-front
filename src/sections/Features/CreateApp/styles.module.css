@@ -1,0 +1,28 @@
+.buttonWrap {
+    text-align: center;
+    padding: calc(var(--uint) * 4) 0;
+    margin-bottom: calc(var(--uint) * 4);
+}
+
+.button {
+    position: relative;
+    background-color: var(--secondary);
+    display: inline-block;
+    max-width: 230px;
+    width: 100%;
+    padding: calc(var(--uint) * 2) calc(var(--uint) * 3);
+    border-radius: calc(var(--uint) * 2);
+}
+
+.cursor {
+    position: absolute;
+    right: -15px;
+    bottom: -25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .buttonWrap {
+        padding: calc(var(--uint) * 3) 0;
+        margin-bottom: calc(var(--uint) * 3);
+    }
+}

@@ -1,5 +1,9 @@
 import React from 'react';
-import { Footer, Header, Layout } from '@components/index';
+import {
+  Footer,
+  Header,
+  Layout,
+} from '@components/index';
 import {
   Offer,
   Community,

@@ -13,7 +13,7 @@ function QuickStart() {
       className={styles.root}
     >
       <Container>
-        <h2 className={styles.head}>
+        <h2 className={styles.title}>
           {'Quick start using '}
           <span>Crypto Pay</span>
         </h2>
@@ -82,7 +82,7 @@ function QuickStart() {
                     </p>
                   </div>
 
-                  <p className={styles.date}>
+                  <p className={styles.messageDate}>
                     21:30
                   </p>
                 </div>
