@@ -45,6 +45,10 @@ html {
     line-height: 1.2;
 }
 
+#__next {
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -100,19 +104,19 @@ section {
     h2 {
         font-size: 48px;
     }
-    
+
     h3 {
         font-size: 36px;
     }
-    
+
     h4 {
         font-size: 34px;
     }
-    
+
     h5 {
         font-size: 30px;
     }
-    
+
     h6 {
         font-size: 26px;
     }
