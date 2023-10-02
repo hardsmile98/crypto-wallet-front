@@ -1,0 +1,57 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.currencies {
+    margin-top: calc(var(--uint) * 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currencies li {
+    text-align: center;
+}
+
+.currencies li img {
+    width: 96px;
+    height: 96px;
+}
+
+.currencies li p {
+    opacity: 0.4;
+    font-size: var(--fsBigSmall);
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    .currencies li img {
+        width: 76px;
+        height: 76px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .currencies {
+        order: 0;
+        margin-top: 0;
+        margin-bottom: calc(var(--uint) * 3);
+        gap: calc(var(--uint) * 1);
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .text {
+        order: 1;
+    }
+
+    .currencies li p {
+        display: none;
+    }
+
+    .currencies li img {
+        width: 56px;
+        height: 56px;
+    }
+}

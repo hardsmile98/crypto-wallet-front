@@ -1,0 +1,19 @@
+.wrap {
+    background-color: var(--bgPrimaryDark);
+    border-radius: calc(var(--uint) * 5);
+    padding: calc(var(--uint) * 5) calc(var(--uint) * 6);
+}
+
+.wrap span {
+    color: var(--primary);
+}
+
+.wrap h3 {
+    margin-bottom: calc(var(--uint) * 2);
+}
+
+@media only screen and (max-width: 900px) {
+    .wrap {
+        padding: calc(var(--uint) * 4);
+    }
+}
