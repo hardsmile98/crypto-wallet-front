@@ -8,7 +8,7 @@
 
     --textHead: #0D0D12;
     --textPrimary: #111111;
-    --textSecondary: #FFFFFF;
+    --textSecondary: #FFF;
 
     --bgPrimary: #FFF;
     --bgPrimaryDark: #F7F9FB;
@@ -29,6 +29,17 @@
     --fs: 20px;
     --fsSmall: 18px;
     --fsBigSmall: 14px;
+}
+
+[data-theme='dark'] {
+    --textHead: #FFF;
+    --textPrimary: #FFF;
+    --textSecondary: #FFF;
+
+    --bgPrimary: #0D0D12;
+    --bgPrimaryDark: #232328;
+    --bgSecondary: #232328;
+    --bgCode: #0D0D12;
 }
 
 body {
