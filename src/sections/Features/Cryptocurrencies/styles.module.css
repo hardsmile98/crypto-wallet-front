@@ -27,8 +27,8 @@
 
 @media only screen and (max-width: 1200px) {
     .currencies li img {
-        width: 76px;
-        height: 76px;
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -37,9 +37,9 @@
         order: 0;
         margin-top: 0;
         margin-bottom: calc(var(--uint) * 3);
-        gap: calc(var(--uint) * 1);
-        justify-content: flex-start;
+        gap: calc(var(--uint) * 2);
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
     .text {
@@ -50,8 +50,23 @@
         display: none;
     }
 
+    .currencies li {
+        width: calc(100% / 8 - 14px);
+    }
+
     .currencies li img {
-        width: 56px;
-        height: 56px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .currencies {
+        gap: calc(var(--uint) * 1);
+    }
+
+    .currencies li {
+        max-width: 72px;
+        width: calc(100% / 4 - 6px);
     }
 }
