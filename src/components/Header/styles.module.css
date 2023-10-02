@@ -19,8 +19,14 @@
     column-gap: calc(var(--uint) * 4);
 }
 
-.menu ul > li > a:hover {
+.menu ul>li>a:hover {
     color: var(--primary);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--uint) * 2);
 }
 
 @media only screen and (max-width: 900px) {
@@ -33,5 +39,9 @@
     .logo {
         width: 46px;
         height: 46px;
+    }
+
+    .buttons {
+        gap: calc(var(--uint) * 1);
     }
 }

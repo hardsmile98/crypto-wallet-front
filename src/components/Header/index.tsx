@@ -6,6 +6,7 @@ import { hrefs, menuLiks } from 'contants';
 import ButtonLink from '../ButtonLink';
 import Container from '../Container';
 import styles from './styles.module.css';
+import ThemeChanger from './ThemeChanger';
 
 function Header() {
   return (
@@ -35,12 +36,16 @@ function Header() {
             </ul>
           </nav>
 
-          <ButtonLink
-            href={hrefs.bot}
-            type="secondary"
-          >
-            Get started
-          </ButtonLink>
+          <div className={styles.buttons}>
+            <ThemeChanger />
+
+            <ButtonLink
+              href={hrefs.bot}
+              type="secondary"
+            >
+              Get started
+            </ButtonLink>
+          </div>
         </div>
       </Container>
     </header>
