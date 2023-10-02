@@ -72,6 +72,8 @@ function Cryptocurrencies() {
         {currencies.map((currency) => (
           <li key={currency.id}>
             <Image
+              width={96}
+              height={96}
               src={currency.image}
               alt={currency.label}
             />

@@ -31,17 +31,6 @@
     --fsBigSmall: 14px;
 }
 
-[data-theme='dark'] {
-    --textHead: #FFF;
-    --textPrimary: #FFF;
-    --textSecondary: #FFF;
-
-    --bgPrimary: #0D0D12;
-    --bgPrimaryDark: #232328;
-    --bgSecondary: #232328;
-    --bgCode: #0D0D12;
-}
-
 body {
     margin: 0;
     padding: 0;

@@ -1,15 +1,12 @@
 import React from 'react';
-import { useTheme } from 'next-themes';
 import lightIcon from 'assets/images/light.svg';
 import darkIcon from 'assets/images/dark.svg';
 import Image from 'next/image';
 import styles from './styles.module.css';
 
 function ThemeChanger() {
-  const {
-    theme = 'light',
-    setTheme,
-  } = useTheme();
+  const theme = 'light';
+  const setTheme = (theme) => {};
 
   const changeTheme = () => setTheme(theme === 'light' ? 'dark' : 'light');
 
