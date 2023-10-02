@@ -7,6 +7,8 @@
     margin-top: calc(var(--uint) * 5);
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: calc(var(--uint) * 2);
     justify-content: space-between;
 }
 
@@ -37,8 +39,6 @@
         order: 0;
         margin-top: 0;
         margin-bottom: calc(var(--uint) * 3);
-        gap: calc(var(--uint) * 2);
-        flex-wrap: wrap;
         justify-content: flex-start;
     }
 
