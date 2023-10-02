@@ -4,9 +4,9 @@ import Image from 'next/image';
 import logo from 'assets/images/logo.svg';
 import { hrefs, menuLiks } from 'contants';
 import ButtonLink from '../ButtonLink';
+import ThemeChanger from './ThemeChanger';
 import Container from '../Container';
 import styles from './styles.module.css';
-import ThemeChanger from './ThemeChanger';
 
 function Header() {
   return (
