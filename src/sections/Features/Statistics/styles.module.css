@@ -1,0 +1,26 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.messageWrap {
+    flex-grow: 1;
+    background-image: url('../../../assets/images/bg_tg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: calc(var(--uint) * 3);
+    margin-bottom: calc(var(--uint) * 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: calc(var(--uint) * 5) calc(var(--uint) * 8);
+}
+
+@media only screen and (max-width: 600px) {
+    .messageWrap {
+        padding: calc(var(--uint) * 3);
+    }
+}

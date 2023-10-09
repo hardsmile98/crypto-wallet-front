@@ -13,7 +13,7 @@ function Message() {
         </p>
         <br />
         <p>
-          💬 A generous donation! Keep working hard 💪
+          💬 A generous donation! Keep working hard&nbsp;💪
         </p>
       </div>
 

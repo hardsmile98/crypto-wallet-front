@@ -1,10 +1,15 @@
+import React from 'react';
 import { Link } from '@components/index';
 import { hrefs } from 'contants';
-import React from 'react';
+import Message from './Message';
+import styles from './styles.module.css';
 
 function Statistics() {
   return (
-    <div>
+    <div className={styles.root}>
+      <div className={styles.messageWrap}>
+        <Message />
+      </div>
 
       <div>
         <h3>
