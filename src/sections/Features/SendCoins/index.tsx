@@ -1,16 +1,12 @@
 import React from 'react';
-import sendCoinsImage from 'assets/images/send_coins.webp';
-import Image from 'next/image';
+import Image from './Image';
 import styles from './styles.module.css';
 
 function SendCoins() {
   return (
     <>
       <div className={styles.imageWrap}>
-        <Image
-          src={sendCoinsImage}
-          alt="sendCoins"
-        />
+        <Image />
       </div>
 
       <div>
