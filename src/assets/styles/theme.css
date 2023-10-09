@@ -1,6 +1,8 @@
 :root {
     --uint: 8px;
 
+    --white: #FFF;
+    --black: #111111;
     --primary: #41A4DF;
     --primaryDark: #297EE2;
     --secondary: #E5F0FC;
@@ -26,6 +28,7 @@
     --gradientStep3: linear-gradient(0deg, #C2E9FB -16.6%, #A1C4FD 106.15%);
 
     --gradientButton: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
+    --graidentMessageWrap: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
 
     --stepButton: #8198D1;
 

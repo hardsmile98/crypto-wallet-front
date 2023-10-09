@@ -1,0 +1,28 @@
+.root {
+    width: 100%;
+    background: var(--white);
+    color: var(--black);
+    border-radius: calc(var(--uint) * 2);
+    padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
+    font-size: var(--fsSmall);
+    position: relative;
+}
+
+.root::after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 9px solid var(--white);
+    border-radius: 0 11px 0;
+    width: 15px;
+    height: 30px;
+    transform: rotate(145deg);
+    bottom: 0;
+    left: -14px;
+}
+
+.date {
+    text-align: right;
+    opacity: 0.4;
+    font-size: var(--fsBigSmall);
+}

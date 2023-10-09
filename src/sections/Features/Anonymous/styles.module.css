@@ -1,0 +1,16 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.messageWrap {
+    flex-grow: 1;
+    background: var(--graidentMessageWrap);
+    border-radius: calc(var(--uint) * 3);
+    margin-bottom: calc(var(--uint) * 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(var(--uint) * 5) calc(var(--uint) * 3);
+}

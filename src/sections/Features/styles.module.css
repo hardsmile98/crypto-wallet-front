@@ -14,6 +14,7 @@
     flex-direction: column;
     gap: calc(var(--uint) * 2);
     width: 40%;
+    flex-shrink: 0;
 }
 
 .wrap {
@@ -33,17 +34,19 @@
     margin-bottom: calc(var(--uint) * 2);
 }
 
-@media only screen and (max-width: 900px) {
-    .wrap {
-        padding: calc(var(--uint) * 4);
-    }
-
+@media only screen and (max-width: 1200px) {
     .widgetsWrap {
         flex-direction: column;
     }
 
     .widgets {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .wrap {
+        padding: calc(var(--uint) * 4);
     }
 }
 

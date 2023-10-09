@@ -5,6 +5,8 @@ import OneClick from './OneClick';
 import Exchange from './Exchange';
 import SendCoins from './SendCoins';
 import styles from './styles.module.css';
+import Statistics from './Statistics';
+import Anonymous from './Anonymous';
 
 function Features() {
   return (
@@ -27,7 +29,7 @@ function Features() {
             </div>
 
             <div className={styles.wrap}>
-              Payment statistics
+              <Statistics />
             </div>
           </div>
 
@@ -38,7 +40,7 @@ function Features() {
 
             <div className={styles.widgets}>
               <div className={styles.wrap}>
-                Anonymous payments
+                <Anonymous />
               </div>
             </div>
           </div>

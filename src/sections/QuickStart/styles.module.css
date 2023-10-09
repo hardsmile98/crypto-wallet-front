@@ -110,7 +110,8 @@
 }
 
 .messageText {
-    background-color: var(--bgPrimary);
+    background: var(--white);
+    color: var(--black);
     padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
     border-radius: calc(var(--uint) * 2) calc(var(--uint) * 2) calc(var(--uint) * 1) calc(var(--uint) * 1);
 }
