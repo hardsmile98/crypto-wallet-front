@@ -1,5 +1,4 @@
 import React from 'react';
-import mobile from 'assets/images/mobile.webp';
 import Container from '@components/Container';
 import ButtonLink from '@components/ButtonLink';
 import Image from 'next/image';
@@ -9,6 +8,7 @@ import badge2 from '@assets/images/badges/2.webp';
 import badge3 from '@assets/images/badges/3.webp';
 import badge4 from '@assets/images/badges/4.webp';
 import badge5 from '@assets/images/badges/5.webp';
+import MobileImage from './MobileImage';
 import styles from './styles.module.css';
 
 const badges = [
@@ -77,12 +77,7 @@ function Offer() {
             </div>
           </div>
 
-          <Image
-            priority
-            className={styles.mobile}
-            src={mobile}
-            alt="mobile"
-          />
+          <MobileImage />
         </div>
       </Container>
     </section>

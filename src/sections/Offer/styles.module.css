@@ -44,6 +44,11 @@
     margin-left: calc(var(--uint) * 3);
 }
 
+.mobileEmpty {
+    width: 415px;
+    height: 770px;
+}
+
 @media only screen and (max-width: 1200px) {
     .mobile {
         margin-right: calc(var(--uint) * -5);
@@ -72,6 +77,12 @@
         width: 100%;
         max-width: 415px;
         height: auto;
+    }
+
+    .mobileEmpty {
+        width: 100%;
+        height: auto;
+        padding-bottom: 200%;
     }
 }
 
