@@ -40,13 +40,13 @@
 .mobile {
     width: 415px;
     height: 770px;
-    margin-right: calc(var(--uint) * 3);
-    margin-left: calc(var(--uint) * 3);
+    margin: 0 calc(var(--uint) * 3);
 }
 
 .mobileEmpty {
     width: 415px;
     height: 770px;
+    flex-shrink: 0;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -71,7 +71,7 @@
     }
 
     .mobile {
-        margin-top: calc(var(--uint) * 2);
+        margin-top: calc(var(--uint) * 5);
         margin-right: 0;
         margin-left: 0;
         width: 100%;

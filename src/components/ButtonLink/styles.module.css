@@ -32,3 +32,9 @@
         padding: calc(var(--uint) * 1.5) calc(var(--uint) * 3);
     }
 }
+
+[data-theme='dark'] .secondary {
+    background: transparent;
+    border: 1px solid var(--textSecondary);
+    color: var(--textSecondary);
+}
