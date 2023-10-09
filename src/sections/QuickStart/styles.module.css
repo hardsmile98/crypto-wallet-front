@@ -199,3 +199,8 @@
         padding: 0 calc(var(--uint) * 2);
     }    
 }
+
+[data-theme='dark'] .stepNumber {
+    background-color: var(--textSecondary);
+    color: var(--bgSecondary);
+}

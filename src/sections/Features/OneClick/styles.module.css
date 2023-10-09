@@ -26,3 +26,8 @@
         margin-bottom: calc(var(--uint) * 3);
     }
 }
+
+[data-theme='dark'] .button {
+    color: var(--textPrimary);
+    background: var(--gradientButton);
+}

@@ -10,6 +10,7 @@ import {
   ApiDocs,
   QuickStart,
   Features,
+  UseCases,
 } from 'sections';
 
 function Page() {
@@ -21,6 +22,8 @@ function Page() {
       <Header />
 
       <Offer />
+
+      <UseCases />
 
       <Features />
 
