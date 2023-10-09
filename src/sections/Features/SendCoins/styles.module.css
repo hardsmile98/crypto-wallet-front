@@ -1,0 +1,11 @@
+.imageWrap {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: calc(var(--uint) * 2);
+}
+
+.imageWrap img {
+    width: 100%;
+    max-width: 470px;
+    height: auto;
+}

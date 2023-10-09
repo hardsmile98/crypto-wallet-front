@@ -17,6 +17,8 @@
 }
 
 .wrap {
+    overflow: hidden;
+    position: relative;
     flex-grow: 1;
     background-color: var(--bgPrimaryDark);
     border-radius: calc(var(--uint) * 5);
@@ -42,5 +44,11 @@
 
     .widgets {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        border-radius: calc(var(--uint) * 3);
     }
 }
