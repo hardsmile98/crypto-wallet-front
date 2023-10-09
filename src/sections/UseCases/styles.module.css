@@ -1,4 +1,12 @@
-.usecases {
+.root {
     background-color: var(--bgSecondary);
     color: var(--textSecondary);
+}
+
+.sliderWrap {
+    display: flex;
+}
+
+.navigation {
+    margin-left: calc(var(--uint) * 2);
 }
