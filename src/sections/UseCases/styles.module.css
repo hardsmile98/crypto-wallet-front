@@ -9,4 +9,69 @@
 
 .navigation {
     margin-left: calc(var(--uint) * 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--uint);
+}
+
+.counter {
+    font-size: var(--fsBigSmall);
+}
+
+.bullets {
+    display: flex;
+    flex-direction: column;
+    gap: var(--uint);
+}
+
+.bullets li button {
+   border: 0;
+   outline: none;
+   cursor: pointer;
+   display: block;
+   width: 4px;
+   height: 100px;
+   background: var(--white);
+   opacity: 0.4;
+   border-radius: calc(var(--uint) * 0.5);
+   transition: 0.25s opacity ease, 0.25s background ease;
+}
+
+.bullets li button:hover {
+    opacity: 1;
+    background: var(--primary);
+ }
+
+.bullets li .active {
+    opacity: 1;
+    background: var(--primary);
+}
+
+@media only screen and (max-width: 900px) {
+    .sliderWrap {
+        flex-wrap: wrap;
+    }
+
+    .navigation {
+        margin-top: calc(var(--uint) * 4);
+        margin-left: 0;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .bullets {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .bullets li {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .bullets li button {
+        width: 100%;
+        height: 4px;
+    }
 }
