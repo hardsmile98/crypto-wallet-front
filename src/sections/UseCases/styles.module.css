@@ -9,6 +9,7 @@
 
 .sliderWrap {
     display: flex;
+    align-items: center;
 }
 
 .navigation {
@@ -132,6 +133,7 @@
 
     .sliderWrap {
         flex-wrap: wrap;
+        align-items: flex-start;
     }
 
     .navigation {

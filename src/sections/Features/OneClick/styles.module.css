@@ -16,8 +16,8 @@
 
 .cursor {
     position: absolute;
-    right: -15px;
-    bottom: -25px;
+    right: -45px;
+    bottom: -40px;
 }
 
 @media only screen and (max-width: 600px) {

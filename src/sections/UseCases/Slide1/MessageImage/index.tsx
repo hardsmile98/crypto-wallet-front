@@ -20,7 +20,7 @@ function MessageImage() {
         </p>
       </Message>
 
-      <Message date="21:25">
+      <Message date="21:25" withBalloon>
         <p>
           🔑 Access key: VPN-X3Y7-Z1W9-R6T2-Q4V8
         </p>
