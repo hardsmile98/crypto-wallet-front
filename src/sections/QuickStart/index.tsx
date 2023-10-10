@@ -5,6 +5,7 @@ import Link from '@components/Link';
 import { hrefs } from 'contants';
 import Image from 'next/image';
 import Message from '@components/Message';
+import CodeExample from '@components/CodeExample';
 import styles from './styles.module.css';
 
 function QuickStart() {
@@ -205,41 +206,7 @@ function QuickStart() {
             </div>
 
             <div className={`${styles.stepExample} ${styles.example3}`}>
-              <div className={styles.code}>
-                <p>
-                  <span className={styles.codeBlue}>
-                    Invoice
-                  </span>
-                  (
-                </p>
-                <p className={styles.lineWithPadding}>
-                  <span className={styles.codeBlue}>
-                    payload:
-                  </span>
-                  {' "item:monthly_premium",'}
-                </p>
-                <p className={styles.lineWithPadding}>
-                  <span className={styles.codeBlue}>
-                    status:
-                  </span>
-                  {' "paid",'}
-                </p>
-                <p className={styles.lineWithPadding}>
-                  <span className={styles.codeBlue}>
-                    amount:
-                  </span>
-                  {' "3.99",'}
-                </p>
-                <p className={styles.lineWithPadding}>
-                  <span className={styles.codeBlue}>
-                    asset:
-                  </span>
-                  {' "USDT",'}
-                </p>
-                <p>
-                  )
-                </p>
-              </div>
+              <CodeExample />
             </div>
           </div>
         </div>

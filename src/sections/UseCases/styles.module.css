@@ -64,7 +64,7 @@
     position: relative;
     flex-basis: 45%;
     flex-shrink: 0;
-    min-width: 400px;
+    min-width: 440px;
 }
 
 .image1 {
@@ -120,8 +120,8 @@
     }
 
     .wrap {
-        padding-bottom: 0%;
-        min-height: 340px;
+        padding-bottom: 0;
+        min-height: 440px;
     }
 
     .slideImage {
@@ -160,6 +160,10 @@
 @media only screen and (max-width: 600px) {
     .slideText a {
         width: 100%;
+    }
+
+    .wrap {
+        min-height: 360px;
     }
 
     .messageWrap {

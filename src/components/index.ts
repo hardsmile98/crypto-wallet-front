@@ -5,6 +5,7 @@ import Footer from './Footer';
 import ButtonLink from './ButtonLink';
 import Link from './Link';
 import Message from './Message';
+import CodeExample from './CodeExample';
 
 export {
   Layout,
@@ -14,4 +15,5 @@ export {
   ButtonLink,
   Link,
   Message,
+  CodeExample,
 };

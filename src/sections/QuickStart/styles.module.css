@@ -27,8 +27,29 @@
     justify-content: center;
 }
 
-.lineWithPadding {
-    margin-left: calc(var(--uint) * 2);
+.code {
+    width: 100%;
+    font-size: var(--fsSmall);
+    background: var(--bgCode);
+    color: var(--textSecondary);
+    border-radius: calc(var(--uint) * 2);
+    padding: calc(var(--uint) * 2);
+}
+
+.code p:not(:last-of-type) {
+    margin-bottom: calc(var(--uint) * 1);
+}
+
+.codeBlue {
+    color: var(--codeBlue);
+}
+
+.codeYellow {
+    color: var(--codeYellow);
+}
+
+.codeRed {
+    color: var(--codeRed);
 }
 
 .example1 {
@@ -82,31 +103,6 @@
     width: 100%;
     font-size: var(--fsSmall);
     word-wrap: break-word;
-}
-
-.code {
-    width: 100%;
-    font-size: var(--fsSmall);
-    background: var(--bgCode);
-    color: var(--textSecondary);
-    border-radius: calc(var(--uint) * 2);
-    padding: calc(var(--uint) * 2);
-}
-
-.code p:not(:last-of-type) {
-    margin-bottom: calc(var(--uint) * 1);
-}
-
-.codeBlue {
-    color: var(--codeBlue);
-}
-
-.codeYellow {
-    color: var(--codeYellow);
-}
-
-.codeRed {
-    color: var(--codeRed);
 }
 
 .messageText {
