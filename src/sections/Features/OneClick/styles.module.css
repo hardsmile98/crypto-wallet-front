@@ -26,19 +26,19 @@
     0% {
         transform: scale(1);
     }
-    35% {
+    26% {
         transform: scale(1);
     }
-    38% {
+    28% {
         transform: scale(1);
     }
-    40% {
+    30% {
         transform: scale(1.1);
     }
-    42% {
+    32% {
         transform: scale(1.1);
     }
-    44% {
+    34% {
         transform: scale(1);
     }
     100% {
@@ -51,19 +51,19 @@
         right: -45px;
         bottom: -40px;
     }
-    15% {
+    25% {
         right: -45px;
         bottom: -40px;
-    }
-    25% {
-        right: -15px;
-        bottom: -25px;
     }
     30% {
         right: -15px;
         bottom: -25px;
     }
     35% {
+        right: -15px;
+        bottom: -25px;
+    }
+    40% {
         right: -45px;
         bottom: -40px;
     }
