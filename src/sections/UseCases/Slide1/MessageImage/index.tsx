@@ -1,5 +1,5 @@
 import React from 'react';
-import Message from '@components/Message';
+import { Message } from '@components/index';
 import styles from './styles.module.css';
 
 function MessageImage() {

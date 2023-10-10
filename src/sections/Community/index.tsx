@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { hrefs } from 'contants';
-import Container from '@components/Container';
-import ButtonLink from '@components/ButtonLink';
+import { ButtonLink, Container } from '@components/index';
 import js from 'assets/images/stacks/js.svg';
 import net from 'assets/images/stacks/net.svg';
 import php from 'assets/images/stacks/php.svg';

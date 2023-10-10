@@ -1,7 +1,5 @@
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable import/no-extraneous-dependencies */
 import React, { useRef, useState } from 'react';
-import Container from '@components/Container';
+import { Container } from '@components/index';
 import { Swiper, SwiperRef, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';

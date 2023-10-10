@@ -1,5 +1,5 @@
 import React from 'react';
-import Message from '@components/Message';
+import { Message } from '@components/index';
 import arrowLink from 'assets/images/arrow_link.svg';
 import Image from 'next/image';
 import styles from './styles.module.css';

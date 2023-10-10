@@ -1,11 +1,13 @@
 import React from 'react';
-import Container from '@components/Container';
 import warning from 'assets/images/emoticons/warning.svg';
-import Link from '@components/Link';
+import {
+  Link,
+  Container,
+  Message,
+  CodeExample,
+} from '@components/index';
 import { hrefs } from 'contants';
 import Image from 'next/image';
-import Message from '@components/Message';
-import CodeExample from '@components/CodeExample';
 import styles from './styles.module.css';
 
 function QuickStart() {

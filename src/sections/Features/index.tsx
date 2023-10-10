@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '@components/Container';
+import { Container } from '@components/index';
 import Cryptocurrencies from './Cryptocurrencies';
 import OneClick from './OneClick';
 import Exchange from './Exchange';

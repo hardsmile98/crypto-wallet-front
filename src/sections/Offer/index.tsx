@@ -1,6 +1,5 @@
 import React from 'react';
-import Container from '@components/Container';
-import ButtonLink from '@components/ButtonLink';
+import { Container, ButtonLink } from '@components/index';
 import Image from 'next/image';
 import { hrefs } from 'contants';
 import badge1 from '@assets/images/badges/1.webp';

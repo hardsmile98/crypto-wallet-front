@@ -1,7 +1,6 @@
 import React from 'react';
 import arrowBottom from '@assets/images/arrow_bottom.svg';
-import Message from '@components/Message';
-import CodeExample from '@components/CodeExample';
+import { Message, CodeExample } from '@components/index';
 import Image from 'next/image';
 import styles from './styles.module.css';
 

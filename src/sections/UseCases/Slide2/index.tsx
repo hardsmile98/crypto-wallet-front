@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonLink from '@components/ButtonLink';
+import { ButtonLink } from '@components/index';
 import { hrefs } from 'contants';
 import MessageImage from './MessageImage';
 import styles from '../styles.module.css';

@@ -26,5 +26,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'import/prefer-default-export': 'off',
     'react/no-unescaped-entities': 'off',
+    'react/no-array-index-key': "off",
+    'import/no-extraneous-dependencies': 'off',
   },
 };
