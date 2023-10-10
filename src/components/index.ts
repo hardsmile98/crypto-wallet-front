@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import ButtonLink from './ButtonLink';
 import Link from './Link';
+import Message from './Message';
 
 export {
   Layout,
@@ -12,4 +13,5 @@ export {
   Footer,
   ButtonLink,
   Link,
+  Message,
 };

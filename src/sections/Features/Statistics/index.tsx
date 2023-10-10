@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from '@components/index';
 import { hrefs } from 'contants';
-import Message from './Message';
+import MessageImage from './MessageImage';
 import styles from './styles.module.css';
 
 function Statistics() {
   return (
     <div className={styles.root}>
       <div className={styles.messageWrap}>
-        <Message />
+        <MessageImage />
       </div>
 
       <div>

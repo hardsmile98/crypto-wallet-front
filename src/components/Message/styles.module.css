@@ -1,0 +1,32 @@
+.root {
+    position: relative;
+    width: 100%;
+    background: var(--white);
+    color: var(--black);
+    font-size: var(--fsSmall);
+    border-radius: calc(var(--uint) * 2);
+    padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
+}
+
+.withButton {
+    border-radius: calc(var(--uint) * 2)  calc(var(--uint) * 2)  calc(var(--uint) * 1)  calc(var(--uint) * 1);
+}
+
+.withBalloon::after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 9px solid var(--white);
+    border-radius: 0 11px 0;
+    width: 15px;
+    height: 30px;
+    transform: rotate(145deg);
+    bottom: 0;
+    left: -14px;
+}
+
+.date {
+    text-align: right;
+    opacity: 0.4;
+    font-size: var(--fsBigSmall);
+}

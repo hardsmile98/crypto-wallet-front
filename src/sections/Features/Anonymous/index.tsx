@@ -1,12 +1,12 @@
 import React from 'react';
-import Message from './Message';
+import MessageImage from './MessageImage';
 import styles from './styles.module.css';
 
 function Anonymous() {
   return (
     <div className={styles.root}>
       <div className={styles.messageWrap}>
-        <Message />
+        <MessageImage />
       </div>
 
       <div>

@@ -1,0 +1,26 @@
+.buttons {
+    font-size: var(--fsSmall);
+    margin-top: calc(var(--uint) * 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(var(--uint) * 0.5);
+}
+
+.buttons > div {
+    padding: calc(var(--uint) * 1.5);
+    text-align: center;
+    border-radius: calc(var(--uint) * 1);
+    background: var(--tgButton);
+    color: var(--white);
+    width: 100%;
+}
+
+.buttons > .buttonSmall {
+    width: calc(50% - 2px);
+}
+
+.buttons > .buttonLast {
+    border-radius: calc(var(--uint) * 1)  calc(var(--uint) * 1) calc(var(--uint) * 2)  calc(var(--uint) * 2);
+}

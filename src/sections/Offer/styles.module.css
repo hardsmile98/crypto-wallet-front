@@ -1,5 +1,5 @@
 .root {
-    padding-top: 0;
+    padding-top: calc(var(--uint) * 3);
 }
 
 .wrap {

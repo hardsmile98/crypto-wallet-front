@@ -2,6 +2,7 @@ import React from 'react';
 import ButtonLink from '@components/ButtonLink';
 import { hrefs } from 'contants';
 import styles from '../styles.module.css';
+import MessageImage from './MessageImage';
 
 function Slide1() {
   return (
@@ -9,7 +10,7 @@ function Slide1() {
       <div className={`${styles.slideImage} ${styles.image1}`}>
         <div className={styles.wrap}>
           <div className={styles.messageWrap}>
-            123123
+            <MessageImage />
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import warning from 'assets/images/emoticons/warning.svg';
 import Link from '@components/Link';
 import { hrefs } from 'contants';
 import Image from 'next/image';
+import Message from '@components/Message';
 import styles from './styles.module.css';
 
 function QuickStart() {
@@ -61,31 +62,25 @@ function QuickStart() {
 
             <div className={`${styles.stepExample} ${styles.example1}`}>
               <div className={styles.message}>
-                <div className={styles.messageText}>
-                  <div className={styles.messageContent}>
-                    <p>
-                      {'Here is the token for the app '}
-                      <span>@GoodsBot</span>
-                    </p>
-                    <br />
-                    <p>
-                      114935:AA9xMcRqHYZYl6CQlkhBStMAwTFQ1s6iJHM
-                    </p>
-                    <br />
-                    <p>
-                      <Image
-                        src={warning}
-                        alt="warnig"
-                      />
-                      {` This token can be used by anyone to control your app.
-                      Keep and store it safely.`}
-                    </p>
-                  </div>
-
-                  <p className={styles.messageDate}>
-                    21:30
+                <Message date="21:30" withButton>
+                  <p>
+                    {'Here is the token for the app '}
+                    <span>@GoodsBot</span>
                   </p>
-                </div>
+                  <br />
+                  <p>
+                    114935:AA9xMcRqHYZYl6CQlkhBStMAwTFQ1s6iJHM
+                  </p>
+                  <br />
+                  <p>
+                    <Image
+                      src={warning}
+                      alt="warnig"
+                    />
+                    {` This token can be used by anyone to control your app.
+                      Keep and store it safely.`}
+                  </p>
+                </Message>
 
                 <div className={styles.messageButton}>
                   Revoke Token

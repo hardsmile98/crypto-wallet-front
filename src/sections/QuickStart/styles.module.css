@@ -197,7 +197,7 @@
 
     .stepExample {
         height: 280px;
-        padding: 0 calc(var(--uint) * 2);
+        padding: 0 calc(var(--uint) * 3);
     }    
 }
 

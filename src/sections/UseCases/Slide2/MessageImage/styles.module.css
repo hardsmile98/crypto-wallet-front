@@ -1,0 +1,22 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--uint) * 0.5);
+    width: 100%;
+}
+
+.button {
+    position: relative;
+    font-size: var(--fsSmall);
+    padding: calc(var(--uint) * 1.5);
+    text-align: center;
+    border-radius: calc(var(--uint) * 1) calc(var(--uint) * 1) calc(var(--uint) * 2) calc(var(--uint) * 2);
+    background: var(--tgButton1);
+    color: var(--white);
+}
+
+.icon {
+    position: absolute;
+    top: calc(var(--uint) * 1);
+    right: calc(var(--uint) * 1);
+}
