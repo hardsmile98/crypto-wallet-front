@@ -37,12 +37,15 @@ function UseCases() {
             centeredSlides
             modules={[Autoplay, EffectFade]}
             loop
+            speed={500}
             autoplay={{
               delay: 5000,
               disableOnInteraction: false,
             }}
             effect="fade"
-            fadeEffect={{ crossFade: true }}
+            fadeEffect={{
+              crossFade: true,
+            }}
           >
             <SwiperSlide>
               <Slide1 />
