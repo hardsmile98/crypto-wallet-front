@@ -13,38 +13,99 @@
     height: auto;
 }
 
-.messages {
+.imageWrap > div {
+    max-width: 370px;
     position: absolute;
     bottom: 30%;
     right: 50%;
-    transform: translateX(50%);
     width: 100%;
-    max-width: 380px;
+    transform: translateX(50%);
+}
+.imageWrap > div:first-of-type {
+    animation: Fade1 20s linear infinite;
 }
 
+.imageWrap > div:last-of-type {
+    animation: Fade 20s linear infinite;
+}
 
+@keyframes Fade {
+    0% {
+        bottom: 30%;
+        opacity: 1;
+    }
+
+    70% {
+        bottom: 30%;
+        opacity: 1;
+    }
+
+    74% {
+        bottom: 30%;
+        opacity: 0;
+    }
+
+    78% {
+        bottom: 35%;
+        opacity: 0;
+    }
+
+    82% {
+        bottom: 30%;
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 30%;
+        opacity: 1;
+    }
+}
+
+@keyframes Fade1 {
+    0% {
+        bottom: 35%;
+        opacity: 0;
+    }
+
+    70% {
+        bottom: 35%;
+        opacity: 0;
+    }
+
+    74% {
+        bottom: 30%;
+        opacity: 1;
+    }
+
+    78% {
+        bottom: 30%;
+        opacity: 1;
+    }
+
+    82% {
+        bottom: 25%;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 25%;
+        opacity: 0;
+    }
+}
+  
 @media only screen and (max-width: 600px) {
-    .messages {
-        bottom: 32%;
+    .imageWrap > div {
         max-width: 85%;
-    }
-
-    .imageWrap {
-        margin-top: -200px;
     }
 }
 
-@media only screen and (max-width: 440px) {
-    .messages {
-        max-width: 85%;
-    }
-
+@media only screen and (max-width: 480px) {
     .imageWrap {
-        margin-top: -120px;
+        margin-top: -150px;
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
     .imageWrap {
         margin-top: -80px;
     }

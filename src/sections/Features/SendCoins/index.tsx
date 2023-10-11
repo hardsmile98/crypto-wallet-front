@@ -9,9 +9,16 @@ function SendCoins() {
       <div className={styles.imageWrap}>
         <Image />
 
-        <div className={styles.messages}>
-          <MessageImage />
-        </div>
+        <MessageImage
+          cryptoValue={3448}
+          currencyValue={5000}
+          numberTransaction={777}
+        />
+        <MessageImage
+          cryptoValue={4210}
+          currencyValue={6500}
+          numberTransaction={329}
+        />
       </div>
 
       <div>

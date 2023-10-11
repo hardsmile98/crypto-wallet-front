@@ -3,7 +3,17 @@ import Image from 'next/image';
 import botAvatar from 'assets/images/botAvatar.svg';
 import styles from './styles.module.css';
 
-function MessageImage() {
+interface MessageImageProps {
+  cryptoValue: number
+  currencyValue: number
+  numberTransaction: number
+}
+
+function MessageImage({
+  cryptoValue,
+  currencyValue,
+  numberTransaction,
+}: MessageImageProps) {
   return (
     <div className={styles.root}>
       <Image
@@ -19,7 +29,16 @@ function MessageImage() {
         </div>
 
         <div>
-          <p>💸 You received 3448 TON ($5000) from @CryptoBot #A777</p>
+          <p>
+            💸 You received
+            {' '}
+            {cryptoValue}
+            {' '}
+            TON ($
+            {currencyValue}
+            ) from @CryptoBot #
+            {numberTransaction}
+          </p>
           <br />
           <p>💬 Design contest awards 🏆</p>
         </div>

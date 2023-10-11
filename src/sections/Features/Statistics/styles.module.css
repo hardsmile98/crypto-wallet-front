@@ -31,11 +31,11 @@
 }
 
 .wrap>div:first-of-type {
-    animation: Fade1 12s linear infinite;
+    animation: Fade1 20s linear infinite;
 }
 
 .wrap>div:last-of-type {
-    animation: Fade 12s linear infinite;
+    animation: Fade 20s linear infinite;
 }
 
 
@@ -44,19 +44,19 @@
         opacity: 1;
     }
 
-    65% {
+    47% {
         opacity: 1;
     }
 
-    70% {
+    50% {
         opacity: 0;
     }
 
-    80% {
+    54% {
         opacity: 0;
     }
 
-    85% {
+    57% {
         opacity: 1;
     }
 
@@ -70,19 +70,19 @@
         opacity: 0;
     }
 
-    65% {
+    47% {
         opacity: 0;
     }
 
-    70% {
+    50% {
         opacity: 1;
     }
 
-    80% {
+    54% {
         opacity: 1;
     }
 
-    85% {
+    57% {
         opacity: 0;
     }
 

@@ -27,54 +27,64 @@
 }
 
 .wrap > div:first-of-type {
-    animation: Fade1 12s linear infinite;
+    animation: Fade1 20s linear infinite;
 }
 
 .wrap > div:last-of-type {
-    animation: Fade 12s linear infinite;
+    animation: Fade 20s linear infinite;
 }
 
 
 @keyframes Fade {
     0% {
+        top: 50%;
         opacity: 1;
-    }
-
-    75% {
-        opacity: 1;
-    }
-
-    80% {
-        opacity: 0;
     }
 
     90% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    94% {
+        top: 50%;
+        opacity: 0;
+    }
+
+    97% {
+        top: 40%;
         opacity: 0;
     }
 
     100% {
+        top: 50%;
         opacity: 1;
     }
 }
 
 @keyframes Fade1 {
     0% {
+        top: 40%;
         opacity: 0;
-    }
-
-    75% {
-        opacity: 0;
-    }
-
-    80% {
-        opacity: 1;
     }
 
     90% {
+        top: 40%;
+        opacity: 0;
+    }
+
+    94% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    97% {
+        top: 50%;
         opacity: 1;
     }
 
     100% {
+        top: 60%;
         opacity: 0;
     }
 }

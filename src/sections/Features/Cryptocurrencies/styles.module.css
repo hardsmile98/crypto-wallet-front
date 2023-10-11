@@ -17,11 +17,11 @@
 }
 
 .currencies li > img {
-  animation: Zoom 8s linear infinite;
+  animation: Zoom 20s linear infinite;
 }
 
 .currencies li > p {
-  animation: Opacity 8s linear infinite;
+  animation: Opacity 20s linear infinite;
 }
 
 .currencies > li:nth-child(1) img,
@@ -68,10 +68,10 @@
   0% {
     opacity: 0.5;
   }
-  3% {
+  1% {
     opacity: 1;
   }
-  6% {
+  2% {
     opacity: 0.5;
   }
   100% {
@@ -83,10 +83,10 @@
   0% {
     transform: scale(1);
   }
-  3% {
+  1% {
     transform: scale(1.08);
   }
-  6% {
+  2% {
     transform: scale(1);
   }
   100% {
