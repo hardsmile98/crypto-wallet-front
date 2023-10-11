@@ -19,9 +19,9 @@ function MessageImage() {
         </div>
 
         <div>
-          <p>You received 3448 TON ($5000) from @CryptoBot #A777</p>
+          <p>💸 You received 3448 TON ($5000) from @CryptoBot #A777</p>
           <br />
-          <p>Design contest awards</p>
+          <p>💬 Design contest awards 🏆</p>
         </div>
       </div>
     </div>

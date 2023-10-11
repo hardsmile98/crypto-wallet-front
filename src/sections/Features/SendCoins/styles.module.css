@@ -4,7 +4,7 @@
     width: 100%;
     max-width: 470px;
     margin: 0 auto;
-    margin-top: -100px;
+    margin-top: -280px;
     margin-bottom: calc(var(--uint) * 2);
 }
 
@@ -15,7 +15,7 @@
 
 .messages {
     position: absolute;
-    bottom: 45%;
+    bottom: 30%;
     right: 50%;
     transform: translateX(50%);
     width: 100%;
@@ -25,17 +25,22 @@
 
 @media only screen and (max-width: 600px) {
     .messages {
-        bottom: 50%;
+        bottom: 30%;
         max-width: 85%;
     }
 
     .imageWrap {
-        margin-top: -32px;
+        margin-top: -200px;
     }
 }
 
 @media only screen and (max-width: 420px) {
     .messages {
-        bottom: 40%;
+        bottom: 32%;
+        max-width: 85%;
+    }
+
+    .imageWrap {
+        margin-top: -80px;
     }
 }
