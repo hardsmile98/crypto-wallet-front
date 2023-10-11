@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './Image';
+import MobileImage from './MobileImage';
 import MessageImage from './MessageImage';
 import styles from './styles.module.css';
 
@@ -7,7 +7,7 @@ function SendCoins() {
   return (
     <>
       <div className={styles.imageWrap}>
-        <Image />
+        <MobileImage />
 
         <MessageImage
           cryptoValue={3448}
