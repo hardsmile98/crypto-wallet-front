@@ -37,6 +37,8 @@
     --tgButtonSelect: rgba(24,109,169,0.9);
     --tgButton1: #96ADC6;
 
+    --swap: rgba(255,255,255,0.5);
+
     --codeBlue: #5DB0E2;
     --codeYellow: #FCEF8F;
     --codeRed: #D46565;
@@ -58,6 +60,8 @@
     --textSecondary: #FFF;
 
     --select: rgba(255,255,255,0.04);
+
+    --swap: rgba(0,0,0,0.5);
 
     --bgPrimary: #0D0D12;
     --bgPrimaryDark: #232328;

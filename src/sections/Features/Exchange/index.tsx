@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import swap from 'assets/images/swap.svg';
+import { SwapIcon } from '@components/index';
 import exchange from 'assets/images/currencies/EXCHANGE.svg';
 import USDT from 'assets/images/currencies/USDT.svg';
 import BTC from 'assets/images/currencies/BTC.svg';
@@ -17,11 +17,9 @@ function Exchange() {
           <Image src={TON} alt="TON" />
         </div>
 
-        <Image
-          className={styles.swap}
-          src={swap}
-          alt="swap"
-        />
+        <div className={styles.swap}>
+          <SwapIcon />
+        </div>
 
         <Image
           className={styles.exchangeImage}

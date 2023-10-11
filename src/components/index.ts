@@ -6,6 +6,7 @@ import ButtonLink from './ButtonLink';
 import Link from './Link';
 import Message from './Message';
 import CodeExample from './CodeExample';
+import SwapIcon from './SwapIcon';
 
 export {
   Layout,
@@ -16,4 +17,5 @@ export {
   Link,
   Message,
   CodeExample,
+  SwapIcon,
 };
