@@ -9,8 +9,10 @@ function OneClick() {
   return (
     <>
       <div className={styles.buttonWrap}>
-        <div className={styles.button}>
-          🏝️ Create App
+        <div className={styles.wrap}>
+          <div className={styles.button}>
+            🏝️ Create App
+          </div>
 
           <Image
             className={styles.cursor}

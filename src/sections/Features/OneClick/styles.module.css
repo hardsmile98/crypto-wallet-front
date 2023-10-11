@@ -4,6 +4,10 @@
     margin-bottom: calc(var(--uint) * 4);
 }
 
+.wrap {
+    position: relative;
+}
+
 .button {
     position: relative;
     background-color: var(--secondary);
@@ -17,7 +21,7 @@
 
 .cursor {
     position: absolute;
-    right: -45px;
+    right: calc(50% - 170px);
     bottom: -40px;
     animation: Move 8s linear infinite;
 }
@@ -29,16 +33,16 @@
     26% {
         transform: scale(1);
     }
-    28% {
+    35% {
         transform: scale(1);
     }
-    30% {
+    37% {
         transform: scale(1.1);
     }
-    32% {
+    39% {
         transform: scale(1.1);
     }
-    34% {
+    41% {
         transform: scale(1);
     }
     100% {
@@ -48,35 +52,62 @@
 
 @keyframes Move {
     0% {
-        right: -45px;
-        bottom: -40px;
-    }
-    25% {
-        right: -45px;
+        right: calc(50% - 170px);
         bottom: -40px;
     }
     30% {
-        right: -15px;
-        bottom: -25px;
+        right: calc(50% - 170px);
+        bottom: -40px;
     }
     35% {
-        right: -15px;
+        right: calc(50% - 140px);
         bottom: -25px;
     }
     40% {
-        right: -45px;
+        right: calc(50% - 140px);
+        bottom: -25px;
+    }
+    45% {
+        right: calc(50% - 170px);
         bottom: -40px;
     }
     100% {
-        right: -45px;
+        right: calc(50% - 170px);
         bottom: -40px;
       }
-  }
+}
 
 @media only screen and (max-width: 600px) {
     .buttonWrap {
         padding: calc(var(--uint) * 3) 0;
         margin-bottom: calc(var(--uint) * 3);
+    }
+
+    @keyframes Move {
+        0% {
+            right: calc(50% - 150px);
+            bottom: -50px;
+        }
+        30% {
+            right: calc(50% - 150px);
+            bottom: -50px;
+        }
+        35% {
+            right: calc(50% - 140px);
+            bottom: -25px;
+        }
+        40% {
+            right: calc(50% - 140px);
+            bottom: -25px;
+        }
+        45% {
+            right: calc(50% - 150px);
+            bottom: -50px;
+        }
+        100% {
+            right: calc(50% - 150px);
+            bottom: -50px;
+          }
     }
 }
 
