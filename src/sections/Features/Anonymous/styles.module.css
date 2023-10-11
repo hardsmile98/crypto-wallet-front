@@ -5,7 +5,7 @@
 }
 
 .messageWrap {
-    background: var(--graidentMessageWrap);
+    background: var(--graidentMessage);
     border-radius: calc(var(--uint) * 3);
     margin-bottom: calc(var(--uint) * 2);
     padding: calc(var(--uint) * 3);

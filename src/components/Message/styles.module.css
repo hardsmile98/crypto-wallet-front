@@ -3,7 +3,7 @@
     width: 100%;
     background: var(--white);
     color: var(--black);
-    font-size: var(--fsSmall);
+    font-size: var(--body1);
     border-radius: calc(var(--uint) * 2);
     padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
 }
@@ -28,5 +28,5 @@
 .date {
     text-align: right;
     opacity: 0.4;
-    font-size: var(--fsBigSmall);
+    font-size: var(--body2);
 }

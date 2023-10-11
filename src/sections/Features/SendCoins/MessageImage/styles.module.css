@@ -1,0 +1,35 @@
+.root {
+    text-align: left;
+    padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
+    font-size: var(--body2);
+    border-radius: calc(var(--uint) * 3);
+    background: var(--graientMobileMessage);
+    display: flex;
+    align-items: center;
+    column-gap: calc(var(--uint) * 1);
+}
+
+.date {
+    opacity: 0.5;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .root {
+        font-size: var(--caption);
+    }
+
+    .avatar {
+        width: 30px;
+        height: auto;
+    }
+}
+
+[data-theme='dark'] .root {
+    background: var(--bgMobileMessageDark);
+}

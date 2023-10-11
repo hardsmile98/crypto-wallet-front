@@ -129,5 +129,5 @@
 
 [data-theme='dark'] .button {
     color: var(--textPrimary);
-    background: var(--gradientButton);
+    background: var(--graidentMessage);
 }

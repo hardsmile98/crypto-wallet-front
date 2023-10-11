@@ -7,7 +7,7 @@
 
 .button {
     position: relative;
-    font-size: var(--fsSmall);
+    font-size: var(--body1);
     padding: calc(var(--uint) * 1.5);
     text-align: center;
     border-radius: calc(var(--uint) * 1) calc(var(--uint) * 1) calc(var(--uint) * 2) calc(var(--uint) * 2);

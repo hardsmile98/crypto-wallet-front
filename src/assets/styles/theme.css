@@ -27,8 +27,10 @@
     --gradientStep2: linear-gradient(207deg, #FCB69F 6.91%, #FFECD2 92.45%);
     --gradientStep3: linear-gradient(0deg, #C2E9FB -16.6%, #A1C4FD 106.15%);
 
-    --gradientButton: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
-    --graidentMessageWrap: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
+    --graidentMessage: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
+
+    --graientMobileMessage: linear-gradient(98deg, #E8F2F9 15.04%, #E8F2F9 52.22%, #E9F1FA 90.93%);
+    --bgMobileMessageDark: #222222;
 
     --stepButton: #8198D1;
     --tgButton: rgba(54,136,194,0.8);
@@ -40,8 +42,9 @@
     --codeRed: #D46565;
 
     --fs: 20px;
-    --fsSmall: 18px;
-    --fsBigSmall: 14px;
+    --body1: 18px;
+    --body2: 14px;
+    --caption: 12px;
 }
 
 [data-theme='dark']:root {
@@ -187,8 +190,8 @@ section {
 @media only screen and (max-width: 600px) {
     :root {
         --fs: 18px;
-        --fsSmall: 14px;
-        --fsBigSmall: 12px;
+        --body1: 14px;
+        --body2: 12px;
     }
 
     h1 {

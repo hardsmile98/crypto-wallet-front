@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from './Image';
+import MessageImage from './MessageImage';
 import styles from './styles.module.css';
 
 function SendCoins() {
@@ -7,6 +8,10 @@ function SendCoins() {
     <>
       <div className={styles.imageWrap}>
         <Image />
+
+        <div className={styles.messages}>
+          <MessageImage />
+        </div>
       </div>
 
       <div>

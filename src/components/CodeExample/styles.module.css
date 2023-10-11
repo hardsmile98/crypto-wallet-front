@@ -1,6 +1,6 @@
 .code {
     width: 100%;
-    font-size: var(--fsSmall);
+    font-size: var(--body1);
     background: var(--bgCode);
     color: var(--textSecondary);
     border-radius: calc(var(--uint) * 2);

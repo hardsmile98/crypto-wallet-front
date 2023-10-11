@@ -1,11 +1,41 @@
 .imageWrap {
+    position: relative;
     text-align: center;
-    margin-top: -40px;
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto;
+    margin-top: -100px;
     margin-bottom: calc(var(--uint) * 2);
 }
 
-.imageWrap img {
+.imageWrap > img {
     width: 100%;
-    max-width: 470px;
     height: auto;
+}
+
+.messages {
+    position: absolute;
+    bottom: 45%;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+    max-width: 380px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .messages {
+        bottom: 50%;
+        max-width: 85%;
+    }
+
+    .imageWrap {
+        margin-top: -32px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .messages {
+        bottom: 40%;
+    }
 }

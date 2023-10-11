@@ -21,7 +21,7 @@
 }
 
 .counter {
-    font-size: var(--fsBigSmall);
+    font-size: var(--body2);
 }
 
 .bullets {
@@ -165,7 +165,7 @@
     }
 
     .wrap {
-        min-height: 360px;
+        min-height: 380px;
     }
 
     .messageWrap {

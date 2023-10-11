@@ -4,7 +4,7 @@
     color: var(--black);
     border-radius: calc(var(--uint) * 2);
     padding: calc(var(--uint) * 1) calc(var(--uint) * 2);
-    font-size: var(--fsSmall);
+    font-size: var(--body1);
     position: relative;
 }
 
@@ -24,5 +24,5 @@
 .date {
     text-align: right;
     opacity: 0.4;
-    font-size: var(--fsBigSmall);
+    font-size: var(--body2);
 }
