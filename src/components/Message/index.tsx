@@ -15,11 +15,7 @@ function Message({
   withBalloon,
 }: MessageProps) {
   return (
-    <div className={`
-        ${styles.root}
-        ${withBalloon ? styles.withBalloon : ''} 
-        ${withButton ? styles.withButton : ''}`}
-    >
+    <div className={`${styles.root} ${withBalloon ? styles.withBalloon : ''} ${withButton ? styles.withButton : ''}`}>
       <div>
         {children}
       </div>

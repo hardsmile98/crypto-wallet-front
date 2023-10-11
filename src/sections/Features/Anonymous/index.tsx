@@ -6,7 +6,20 @@ function Anonymous() {
   return (
     <div className={styles.root}>
       <div className={styles.messageWrap}>
-        <MessageImage />
+        <div className={styles.wrap}>
+          <MessageImage
+            cryptoValue={3442}
+            currencyValue={5000}
+            numberTransaction={52}
+            date="21:25"
+          />
+          <MessageImage
+            cryptoValue={3862}
+            currencyValue={6500}
+            numberTransaction={80}
+            date="21:30"
+          />
+        </div>
       </div>
 
       <div>

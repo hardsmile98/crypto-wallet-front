@@ -1,14 +1,32 @@
 import React from 'react';
 import { Message } from '@components/index';
 
-function MessageImage() {
+interface MessageImageProps {
+  cryptoValue: number
+  currencyValue: number
+  numberTransaction: number
+  date: string
+}
+
+function MessageImage({
+  cryptoValue,
+  currencyValue,
+  numberTransaction,
+  date,
+}: MessageImageProps) {
   return (
-    <Message date="21:25" withBalloon>
+    <Message date={date} withBalloon>
       <p>
         🏝️
         <b>Anonymous</b>
-        {' paid your invoice #IV53.You received '}
-        <b>3442 TON ($5000).</b>
+        {` paid your invoice #IV${numberTransaction}.You received `}
+        <b>
+          {cryptoValue}
+          {' '}
+          TON ($
+          {currencyValue}
+          ).
+        </b>
       </p>
       <br />
       <p>
