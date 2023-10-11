@@ -23,7 +23,11 @@ function Exchange() {
           alt="swap"
         />
 
-        <Image src={exchange} alt="exchange" />
+        <Image
+          className={styles.exchangeImage}
+          src={exchange}
+          alt="exchange"
+        />
       </div>
 
       <div>
