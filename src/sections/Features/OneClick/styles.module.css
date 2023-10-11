@@ -31,12 +31,8 @@
         transform: scale(1);
     }
 
-    17% {
-        transform: scale(1);
-    }
-
     18% {
-        transform: scale(1.1);
+        transform: scale(1);
     }
 
     19% {
@@ -44,6 +40,10 @@
     }
 
     20% {
+        transform: scale(1.1);
+    }
+
+    21% {
         transform: scale(1);
     }
 
@@ -58,22 +58,22 @@
         bottom: -40px;
     }
 
-    15% {
+    16% {
         right: calc(50% - 170px);
         bottom: -40px;
     }
 
-    17% {
+    18% {
         right: calc(50% - 140px);
         bottom: -25px;
     }
 
-    19% {
+    20% {
         right: calc(50% - 140px);
         bottom: -25px;
     }
 
-    21% {
+    22% {
         right: calc(50% - 170px);
         bottom: -40px;
     }
@@ -96,22 +96,22 @@
             bottom: -50px;
         }
 
-        15% {
+        16% {
             right: calc(50% - 150px);
             bottom: -50px;
         }
 
-        17% {
+        18% {
             right: calc(50% - 140px);
             bottom: -25px;
         }
 
-        19% {
+        20% {
             right: calc(50% - 140px);
             bottom: -25px;
         }
 
-        21% {
+        22% {
             right: calc(50% - 150px);
             bottom: -50px;
         }
