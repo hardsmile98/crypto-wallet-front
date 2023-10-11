@@ -1,10 +1,10 @@
 import React from 'react';
 import { Message } from '@components/index';
-import styles from './styles.module.css';
+import styles from '../styles.module.css';
 
-function MessageImage() {
+function MessageAllTime() {
   return (
-    <>
+    <div>
       <Message date="21:30" withButton>
         <p>
           {'Application Statistics '}
@@ -38,7 +38,7 @@ function MessageImage() {
       </Message>
 
       <div className={styles.buttons}>
-        <div className={styles.buttonSmall}>
+        <div className={`${styles.buttonSmall} ${styles.selectButton}`}>
           · All Time ·
         </div>
         <div className={styles.buttonSmall}>
@@ -57,8 +57,8 @@ function MessageImage() {
           ‹ Back
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default MessageImage;
+export default MessageAllTime;

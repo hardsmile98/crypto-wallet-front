@@ -13,14 +13,124 @@
     border-radius: calc(var(--uint) * 3);
     margin-bottom: calc(var(--uint) * 2);
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    min-height: 520px;
     padding: calc(var(--uint) * 5) calc(var(--uint) * 8);
+}
+
+.wrap {
+    position: relative;
+    flex-grow: 1;
+}
+
+.wrap > div {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+}
+
+.wrap > div:first-of-type {
+    animation: Fade1 12s linear infinite;
+}
+
+.wrap > div:last-of-type {
+    animation: Fade 12s linear infinite;
+}
+
+
+@keyframes Fade {
+    0% {
+        opacity: 1;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Fade1 {
+    0% {
+        opacity: 0;
+    }
+
+    65% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.buttons {
+    font-size: var(--fsSmall);
+    margin-top: calc(var(--uint) * 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(var(--uint) * 0.5);
+}
+
+.buttons > div {
+    padding: calc(var(--uint) * 1.5);
+    text-align: center;
+    border-radius: calc(var(--uint) * 1);
+    background: var(--tgButton);
+    color: var(--white);
+    width: 100%;
+}
+
+.buttons > .selectButton {
+    background: var(--tgButtonSelect);
+}
+
+.buttons > .buttonSmall {
+    width: calc(50% - 2px);
+}
+
+.buttons > .buttonLast {
+    border-radius: calc(var(--uint) * 1)  calc(var(--uint) * 1) calc(var(--uint) * 2)  calc(var(--uint) * 2);
+}
+
+@media only screen and (max-width: 900px) {
+    .messageWrap {
+        min-height: 550px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .messageWrap {
+        min-height: 440px;
         padding: calc(var(--uint) * 3);
     }
 }
