@@ -121,19 +121,6 @@
     border-radius: calc(var(--uint) * 1) calc(var(--uint) * 1)  calc(var(--uint) * 2) calc(var(--uint) * 2);
 }
 
-.messageContent span {
-    font-weight: 500;
-}
-
-.messageContent img {
-    vertical-align: middle;
-    line-height: inherit;
-    transform: translateY(-0.08em);
-    width: 18px;
-    height: 18px;
-}
-
-
 .messageDate {
     margin-top: calc(var(--uint) * 0.5);
     text-align: right;
@@ -184,11 +171,6 @@
     .stepNumber {
         width: 36px;
         height: 36px;
-    }
-
-    .messageContent img {
-        width: 14px;
-        height: 14px;
     }
 
     .stepExample {

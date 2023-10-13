@@ -66,7 +66,7 @@ function QuickStart() {
                 <Message date="21:30" withButton>
                   <p>
                     {'Here is the token for the app '}
-                    <span>@GoodsBot</span>
+                    <span><b>@GoodsBot</b></span>
                   </p>
                   <br />
                   <p>
