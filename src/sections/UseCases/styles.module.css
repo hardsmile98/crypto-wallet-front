@@ -171,4 +171,8 @@
     .messageWrap {
         padding: calc(var(--uint) * 4);
     }
+
+    .slideImage {
+        border-radius: calc(var(--uint) * 3);
+    }
 }

@@ -175,8 +175,9 @@
 
     .stepExample {
         height: 280px;
+        border-radius: calc(var(--uint) * 3);
         padding: 0 calc(var(--uint) * 3);
-    }    
+    }
 }
 
 [data-theme='dark'] .stepNumber {
